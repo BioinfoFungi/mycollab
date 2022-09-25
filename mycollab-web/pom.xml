@@ -314,6 +314,33 @@
     </dependencies>
 
     <profiles>
+<!--        <profile>-->
+<!--            <id>Vaadin</id>-->
+<!--            <build>-->
+<!--                <plugins>-->
+<!--                    <plugin>-->
+<!--                        <groupId>com.vaadin</groupId>-->
+<!--                        <artifactId>vaadin-maven-plugin</artifactId>-->
+<!--                        <version>${vaadin.version}</version>-->
+<!--                        <configuration>-->
+<!--                            <webappDirectory>src/main/resources/VAADIN/widgetsets/</webappDirectory>-->
+<!--                        </configuration>-->
+<!--                        <executions>-->
+<!--                            <execution>-->
+<!--                                <goals>-->
+<!--                                    <goal>update-theme</goal>-->
+<!--                                    <goal>update-widgetset</goal>-->
+<!--                                    <goal>compile</goal>-->
+<!--                                    &lt;!&ndash; Comment out compile-theme goal to use on-the-fly theme compilation &ndash;&gt;-->
+<!--                                    <goal>compile-theme</goal>-->
+<!--                                </goals>-->
+<!--                                <phase>compile</phase>-->
+<!--                            </execution>-->
+<!--                        </executions>-->
+<!--                    </plugin>-->
+<!--                </plugins>-->
+<!--            </build>-->
+<!--        </profile>-->
         <profile>
             <id>dev</id>
             <activation>
@@ -332,8 +359,30 @@
             </activation>
         </profile>
     </profiles>
+
+
     <build>
         <plugins>
+            <plugin>
+                <groupId>com.vaadin</groupId>
+                <artifactId>vaadin-maven-plugin</artifactId>
+                <version>${vaadin.version}</version>
+                <configuration>
+                    <webappDirectory>src/main/resources/VAADIN/widgetsets/</webappDirectory>
+                </configuration>
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <goals>-->
+<!--                            <goal>update-theme</goal>-->
+<!--                            <goal>update-widgetset</goal>-->
+<!--                            <goal>compile</goal>-->
+<!--                            &lt;!&ndash; Comment out compile-theme goal to use on-the-fly theme compilation &ndash;&gt;-->
+<!--                            <goal>compile-theme</goal>-->
+<!--                        </goals>-->
+<!--                        <phase>compile</phase>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+            </plugin>
             <plugin>
                 <groupId>net.alchim31.maven</groupId>
                 <artifactId>yuicompressor-maven-plugin</artifactId>
