@@ -29,7 +29,7 @@ import java.nio.file.StandardCopyOption
  * @since 5.5.0
  */
 @Component
-@ConfigurationProperties(prefix = "server")
+@ConfigurationProperties(prefix = "app.server")
 class ServerConfiguration(var storageSystem: String = STORAGE_FILE, var port: Int = 8080,
                           var address: String = "",
                           var apiUrl: String = "", var pullMethod: String = "", var siteUrl: String = "",
