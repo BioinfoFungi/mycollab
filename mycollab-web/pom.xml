@@ -18,6 +18,16 @@
             <artifactId>mycollab-core</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.ocpsoft.prettytime</groupId>
+            <artifactId>prettytime</artifactId>
+            <version>4.0.2.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>uk.com.robust-it</groupId>
+            <artifactId>cloning</artifactId>
+            <version>1.9.12</version>
+        </dependency>
 
         <dependency>
             <groupId>com.mycollab</groupId>
@@ -130,6 +140,8 @@
             <groupId>org.tepi.listbuilder</groupId>
             <artifactId>listbuilder</artifactId>
             <version>1.0.0.v8</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/listbuilder-1.0.0.v8.jar </systemPath>
         </dependency>
 
         <dependency>
@@ -142,6 +154,8 @@
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-context-menu</artifactId>
             <version>3.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/vaadin-context-menu-3.0.0.jar</systemPath>
         </dependency>
 
         <dependency>
@@ -190,6 +204,8 @@
             <groupId>com.jarektoro</groupId>
             <artifactId>responsive-layout</artifactId>
             <version>2.1.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/responsive-layout-2.1.1.jar</systemPath>
         </dependency>
 
         <dependency>
