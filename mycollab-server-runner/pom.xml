@@ -83,7 +83,7 @@
 
         <dependency>
             <groupId>com.mycollab</groupId>
-            <artifactId>mycollab-web-community</artifactId>
+            <artifactId>mycollab-web</artifactId>
             <version>${project.version}</version>
         </dependency>
 
