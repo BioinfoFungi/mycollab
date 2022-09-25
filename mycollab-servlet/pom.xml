@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <name>mycollab-servlet</name>
+    <artifactId>mycollab-servlet</artifactId>
+    <parent>
+        <groupId>com.mycollab</groupId>
+        <artifactId>mycollab-parent-community</artifactId>
+        <version>7.0.3</version>
+<!--        <relativePath>../mycollab-parent-community/pom.xml</relativePath>-->
+    </parent>
+    <packaging>jar</packaging>
+    <dependencies>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.mycollab</groupId>
+            <artifactId>mycollab-core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.mycollab</groupId>
+            <artifactId>mycollab-services</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.mycollab</groupId>
+            <artifactId>mycollab-localization</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.mycollab</groupId>
+            <artifactId>mycollab-config</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.mycollab</groupId>
+            <artifactId>mycollab-caching</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.mycollab</groupId>
+            <artifactId>mycollab-dao</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

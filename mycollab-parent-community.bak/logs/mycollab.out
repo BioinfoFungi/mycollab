@@ -1,0 +1,1342 @@
+00:00:03,897  INFO c.m.m.m.DefaultMailer:92 - Email content: [Sample project] Overdue tickets(3) 
+ <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+a {
+  color: #006DAC;
+}
+body {
+  background-color: #f5faff;
+  font: 14px Arial, 'Times New Roman', sans-serif;
+  padding: 0px 0px;
+}
+td {
+  line-height: 150%;
+}
+
+.actionBtn {
+	background-color:#006DAC;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:1px solid #006DAC;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:5px 10px;
+	text-decoration:none;
+}
+.actionBtn:hover {
+	background-color:#00578a;
+}
+.actionBtn:active {
+	position:relative;
+	top:1px;
+}
+
+.wrapContent {
+    margin: 20px 0px;
+    background-color:white;
+    border: 1px solid #e9e9e9;
+    padding-bottom: 20px;
+}
+.circle-box {
+    border-radius: 50%;
+}
+
+.comment-box {
+    box-sizing: border-box;
+    background-color:#faefc7;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px 13px;
+    position: relative;
+    width: 80%;
+    float: left;
+}
+
+.comment-box::before {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    top: 6px;
+    left: -11px;
+    border-width: 11px 11px 11px 0;
+    border-color: transparent #faefc7;
+}
+</style>
+</head><body style="width: 800px">
+    <table width="800" cellpadding="0" cellspacing="0" class="wrapContent">
+<tr>
+  <td>
+    <div style="padding: 10px 25px;">
+            <img src="http://192.168.0.155:8080/assets/icons/logo.png?v=7.0.3" width="130" height="30" style="margin: 0px; padding: 0px;">
+    </div>
+  </td>
+</tr>        <tr>
+            <td style="padding: 10px 30px">
+                <p><b>过期的工号单(3)</b></p>
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="font-size: 12px; margin: 20px 0px; border-collapse: collapse;">
+                        <tr style="border-bottom: 1px solid $styles.border_color">
+                            <td style="font-weight: bold; width: 80px; padding: 10px; vertical-align: top;">Due Date</td>
+                            <td style="font-weight: bold; width: 300px; padding: 10px; vertical-align: top;">Assignment</td>
+                            <td style="font-weight: bold; width: 300px; padding: 10px; vertical-align: top;">Assignee</td>
+                        </tr>
+                            <tr style="border-bottom: 1px solid #e5e5e5">
+                                <td style="width: 80px; padding: 10px; vertical-align: top; color: #999"></td>
+                                <td style="width: 300px; padding: 10px; vertical-align: top;"><div><span class="v-icon v-icon-tasks" style="font-family: Vaadin-Icons;">&#xe73d;</span>&nbsp;<a href="http://192.168.0.155:8080/#project/ticket/preview/SP1-1">Task A</a></div></td>
+                                <td style="width: 300px; padding: 10px; vertical-align: top;"><div><img alt="" src="http://192.168.0.155:8080/assets/icons/default_user_avatar_16.png?v=7.0.3"><a href="http://192.168.0.155:8080/account/user/preview/"></a></div></td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #e5e5e5">
+                                <td style="width: 80px; padding: 10px; vertical-align: top; color: #999"></td>
+                                <td style="width: 300px; padding: 10px; vertical-align: top;"><div><span class="v-icon v-icon-tasks" style="font-family: Vaadin-Icons;">&#xe73d;</span>&nbsp;<a href="http://192.168.0.155:8080/#project/ticket/preview/SP1-4">Task D</a></div></td>
+                                <td style="width: 300px; padding: 10px; vertical-align: top;"><div><img alt="" src="http://192.168.0.155:8080/assets/icons/default_user_avatar_16.png?v=7.0.3"><a href="http://192.168.0.155:8080/account/user/preview/"></a></div></td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #e5e5e5">
+                                <td style="width: 80px; padding: 10px; vertical-align: top; color: #999">2022-10-07</td>
+                                <td style="width: 300px; padding: 10px; vertical-align: top;"><div><span class="v-icon v-icon-flag_checkered" style="font-family: Vaadin-Icons;">&#xe70f;</span>&nbsp;<a href="http://192.168.0.155:8080/#project/milestone/preview/MS8x">Sample milestone</a></div></td>
+                                <td style="width: 300px; padding: 10px; vertical-align: top;"><div><img alt="" src="http://192.168.0.155:8080/file/avatar/1664007581609e6704988-fff4-4761-bb42-b787c8bd59d7_16.png"><a href="http://192.168.0.155:8080/account/user/preview/MTc0OTc0ODk1NUBxcS5jb20"> 1749748955</a></div></td>
+                            </tr>
+                    </table>
+            </td>
+        </tr>
+    </table>
+<p style="color: #999; font:12px Arial, 'Times New Roman', sans-serif; text-align: center;">
+This email has been sent to you as part of your project "Sample project" membership. To change your project email preferences at any time, please visit the <a href="http://192.168.0.155:8080/#project/setting/MQ">Project Notification Setting</a> page for your project.
+</p>
+<div style="color: #999; font:12px Arial, 'Times New Roman', sans-serif; display:inline-flex; padding: 0px 30px;">
+  Copyright by <a href="https://www.mycollab.com">&nbsp;&copy;&nbsp; MyCollab 2022</a>. All rights reserved.&nbsp;Connect with us &nbsp;
+    <a style="display: inline-block; vertical-align: middle;" href="">
+      <img src="http://192.168.0.155:8080/assets/icons/email/footer-facebook.png">
+    </a>&nbsp;
+    <a style="display: inline-block; vertical-align: middle;" href="">
+      <img src="http://192.168.0.155:8080/assets/icons/email/footer-google.png">
+    </a>&nbsp;
+    <a style="display: inline-block; vertical-align: middle;" href="">
+      <img src="http://192.168.0.155:8080/assets/icons/email/footer-twitter.png">
+    </a>
+</div></body>
+00:00:03,922 ERROR c.m.s.j.GenericQuartzJobBean:49 - Exception in running schedule
+com.mycollab.core.MyCollabException: org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.qq.com:587
+	at com.mycollab.module.mail.DefaultMailer.sendHTMLMail(DefaultMailer.kt:93)
+	at com.mycollab.module.mail.DefaultMailer.sendHTMLMail(DefaultMailer.kt:103)
+	at com.mycollab.module.mail.service.impl.ExtMailServiceImpl.sendHTMLMail(ExtMailServiceImpl.kt:49)
+	at com.mycollab.module.project.schedule.email.service.OverdueProjectTicketsNotificationJob.executeJob(OverdueProjectTicketsNotificationJob.kt:130)
+	at com.mycollab.schedule.jobs.GenericQuartzJobBean.executeInternal(GenericQuartzJobBean.kt:41)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.qq.com:587
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1469)
+	at org.apache.commons.mail.Email.send(Email.java:1496)
+	at com.mycollab.module.mail.DefaultMailer.sendHTMLMail(DefaultMailer.kt:90)
+	... 7 common frames omitted
+Caused by: javax.mail.AuthenticationFailedException: 535 Login Fail. System busy and please try again later
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780)
+	at javax.mail.Service.connect(Service.java:388)
+	at javax.mail.Service.connect(Service.java:246)
+	at javax.mail.Service.connect(Service.java:195)
+	at javax.mail.Transport.send0(Transport.java:254)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1459)
+	... 9 common frames omitted
+00:08:39,428  INFO c.m.MainApplication:50 - Starting MainApplication on wangyang-PC with PID 6168 (/home/wangyang/workspace/mycollab-master/mycollab-server-runner/target/classes started by wangyang in /home/wangyang/workspace/mycollab-master/mycollab-parent-community)
+00:08:39,434  INFO c.m.MainApplication:675 - No active profile set, falling back to default profiles: default
+00:08:43,040  INFO o.s.c.a.ConfigurationClassPostProcessor:380 - Cannot enhance @Configuration bean definition 'com.vaadin.spring.VaadinConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+00:08:44,180  INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bff98869] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+00:08:45,046  WARN i.u.w.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+00:08:45,098  INFO i.u.servlet:364 - Initializing Spring embedded WebApplicationContext
+00:08:45,099  INFO o.s.w.c.ContextLoader:296 - Root WebApplicationContext: initialization completed in 5505 ms
+00:08:45,208  INFO c.v.s.b.i.VaadinServletConfiguration:261 - Registering Vaadin servlet
+00:08:45,209  INFO c.v.s.b.i.VaadinServletConfiguration:263 - Servlet will be mapped to URLs [/vaadinServlet/*, /VAADIN/*]
+00:08:45,237  INFO c.v.s.b.i.VaadinServletConfiguration:282 - Setting servlet init parameters
+00:08:45,238  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [productionMode] = [false]
+00:08:45,238  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [resourceCacheTime] = [3600]
+00:08:45,238  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [heartbeatInterval] = [300]
+00:08:45,239  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [closeIdleSessions] = [false]
+00:08:45,667  INFO c.z.h.HikariDataSource:110 - HikariPool-1 - Starting...
+00:08:46,255  INFO c.z.h.HikariDataSource:123 - HikariPool-1 - Start completed.
+00:08:46,294  INFO o.f.c.i.l.VersionPrinter:49 - Flyway Community Edition 5.2.4 by Boxfuse
+00:08:46,323  INFO o.f.c.i.d.DatabaseFactory:49 - Database: jdbc:mysql://localhost:3306/mycollab (MySQL 8.0)
+00:08:46,887  INFO o.f.c.i.c.DbMigrate:49 - Current version of schema `mycollab`: 20190416.1
+00:08:46,889  INFO o.f.c.i.c.DbMigrate:49 - Schema `mycollab` is up to date. No migration necessary.
+00:08:52,127  WARN o.a.j.c.u.RepositoryLock:134 - Existing lock file /home/wangyang/workspace/mycollab-master/mycollab-parent-community/repo2/wiki-workspaces/.lock detected. Repository was not shut down properly.
+00:08:52,130  INFO o.a.j.c.RepositoryImpl:259 - Starting repository...
+00:08:53,015  INFO o.a.j.c.RepositoryImpl:2035 - initializing workspace 'wiki'...
+00:08:53,145  INFO o.a.j.c.RepositoryImpl:2039 - workspace 'wiki' initialized
+00:08:53,152  INFO o.a.j.c.RepositoryImpl:455 - SecurityManager = class org.apache.jackrabbit.core.security.simple.SimpleSecurityManager
+00:08:53,154  INFO o.a.j.c.s.s.SimpleSecurityManager:137 - init: using Repository LoginModule configuration for Jackrabbit
+00:08:53,163  INFO o.a.j.c.RepositoryImpl:367 - Repository started (1033ms)
+00:08:53,196  INFO c.m.m.p.PageSessionFactory:41 - Register node types
+00:08:53,284  INFO c.m.m.p.PageSessionFactory:66 - Register MyCollab content type
+00:08:53,932  WARN o.a.j.c.u.RepositoryLock:134 - Existing lock file /home/wangyang/workspace/mycollab-master/mycollab-parent-community/repo2/workspaces/.lock detected. Repository was not shut down properly.
+00:08:53,932  INFO o.a.j.c.RepositoryImpl:259 - Starting repository...
+00:08:54,032  INFO o.a.j.c.j.DatabaseJournal:374 - Initialized local revision to 136
+00:08:54,032  INFO o.a.j.c.j.DatabaseJournal:383 - Cluster revision janitor thread not started
+00:08:54,033  INFO o.a.j.c.j.DatabaseJournal:280 - DatabaseJournal initialized.
+00:08:54,064  INFO o.a.j.c.RepositoryImpl:2035 - initializing workspace 'ecm'...
+00:08:54,085  INFO o.a.j.c.RepositoryImpl:2039 - workspace 'ecm' initialized
+00:08:54,086  INFO o.a.j.c.RepositoryImpl:455 - SecurityManager = class org.apache.jackrabbit.core.security.simple.SimpleSecurityManager
+00:08:54,086  INFO o.a.j.c.RepositoryImpl:2035 - initializing workspace 'default2'...
+00:08:54,118  INFO o.a.j.c.RepositoryImpl:2039 - workspace 'default2' initialized
+00:08:54,119  INFO o.a.j.c.s.s.SimpleSecurityManager:137 - init: using Repository LoginModule configuration for Jackrabbit
+00:08:54,130  INFO o.a.j.c.RepositoryImpl:367 - Repository started (198ms)
+00:08:54,132  INFO c.m.m.e.ContentSessionFactory:40 - Register node types
+00:08:54,152  INFO c.m.m.e.ContentSessionFactory:66 - Register mycollab content type
+00:08:55,191  INFO c.m.v.m.s.ComponentScannerService:51 - Started resolving view and presenter classes
+00:08:56,149  INFO c.m.v.m.s.ComponentScannerService:61 - Resolved view and presenter classes com.mycollab.vaadin.mvp.service.ComponentScannerService@4e111e08 that has 65 view classes and 58 presenter classes
+00:08:57,073  INFO o.s.s.c.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+00:08:57,373  INFO c.v.s.b.i.VaadinServletConfiguration:121 - Checking the application context for Vaadin UI mappings
+00:08:57,381  INFO c.v.s.b.i.VaadinServletConfiguration:110 - Forwarding @SpringUI URLs from {}
+00:08:57,385  INFO c.v.s.b.i.VaadinServletConfiguration:206 - Registering Vaadin servlet of type [com.vaadin.spring.server.SpringVaadinServlet]
+00:08:57,834  INFO o.q.i.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+00:08:57,866  INFO o.q.c.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+00:08:57,867  INFO o.q.c.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+00:08:57,868  INFO o.q.s.RAMJobStore:155 - RAMJobStore initialized.
+00:08:57,870  INFO o.q.c.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+00:08:57,870  INFO o.q.i.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+00:08:57,870  INFO o.q.i.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+00:08:57,870  INFO o.q.c.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@162a5c4c
+00:08:58,205  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+00:08:58,206  INFO o.a.c.AtmosphereFramework:588 - Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+00:08:58,263  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+00:08:58,285  INFO o.a.u.ForkJoinPool:588 - Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+00:08:58,294  INFO o.a.c.AtmosphereFramework:588 - Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+00:08:58,307  INFO o.a.c.JSR356AsyncSupport:588 - JSR 356 Mapping path 
+00:08:58,311  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /
+00:08:58,318  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /{path0}
+00:08:58,319  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /{path0}/{path1}
+00:08:58,320  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /{path0}/{path1}/{path2}
+00:08:58,320  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /{path0}/{path1}/{path2}/{path3}
+00:08:58,320  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /{path0}/{path1}/{path2}/{path3}/{path4}
+00:08:58,321  INFO o.a.c.AtmosphereFramework:588 - Installing Default AtmosphereInterceptors
+00:08:58,322  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+00:08:58,323  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+00:08:58,325  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+00:08:58,326  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+00:08:58,327  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+00:08:58,328  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+00:08:58,329  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+00:08:58,331  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+00:08:58,332  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+00:08:58,332  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+00:08:58,333  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+00:08:58,333  INFO o.a.c.AtmosphereFramework:588 - Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+00:08:58,334  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+00:08:58,342  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+00:08:58,343  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+00:08:58,344  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+00:08:58,344  INFO o.a.i.HeartbeatInterceptor:588 - HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+00:08:58,344  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+00:08:58,345  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+00:08:58,345  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+00:08:58,345  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+00:08:58,346  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+00:08:58,346  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+00:08:58,346  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+00:08:58,347  INFO o.a.c.AtmosphereFramework:588 - Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+00:08:58,347  INFO o.a.c.AtmosphereFramework:588 - Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+00:08:58,347  INFO o.a.c.AtmosphereFramework:588 - Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+00:08:58,348  INFO o.a.c.AtmosphereFramework:588 - Broadcaster Shared List Resources: false
+00:08:58,348  INFO o.a.c.AtmosphereFramework:588 - Broadcaster Polling Wait Time 100
+00:08:58,348  INFO o.a.c.AtmosphereFramework:588 - Shared ExecutorService supported: true
+00:08:58,348  INFO o.a.c.AtmosphereFramework:588 - Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+00:08:58,348  INFO o.a.c.AtmosphereFramework:588 - Async I/O Thread Pool Size: 200
+00:08:58,349  INFO o.a.c.AtmosphereFramework:588 - Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+00:08:58,349  INFO o.a.c.AtmosphereFramework:588 - Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+00:08:58,349  INFO o.a.c.AtmosphereFramework:588 - Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+00:08:58,355  INFO o.a.c.AtmosphereFramework:588 - Invoke AtmosphereInterceptor on WebSocket message true
+00:08:58,356  INFO o.a.c.AtmosphereFramework:588 - HttpSession supported: true
+00:08:58,356  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using DefaultAtmosphereObjectFactory for dependency injection and object creation
+00:08:58,358  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Undertow - 2.0.17.Final using javax.servlet/3.0 and jsr356/WebSocket API
+00:08:58,358  INFO o.a.c.AtmosphereFramework:588 - Atmosphere Framework 2.4.30.vaadin1 started.
+00:08:58,368  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+00:08:58,369  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+00:08:58,369  INFO o.a.c.AtmosphereFramework:588 - Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+00:08:58,376  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+00:08:58,380  INFO o.a.u.ForkJoinPool:588 - Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+00:08:58,384  INFO o.a.c.AtmosphereFramework:588 - Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+00:08:58,384  WARN o.a.u.IOUtils:588 - More than one Servlet Mapping defined. WebSocket may not work io.undertow.servlet.spec.ServletRegistrationImpl@7aa62a90
+00:08:58,384  INFO o.a.c.JSR356AsyncSupport:588 - JSR 356 Mapping path /vaadinServlet
+00:08:58,385  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet
+00:08:58,385  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/
+00:08:58,386  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}
+00:08:58,386  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}
+00:08:58,387  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}
+00:08:58,387  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}/{path3}
+00:08:58,387  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}/{path3}/{path4}
+00:08:58,388  INFO o.a.c.AtmosphereFramework:588 - Installing Default AtmosphereInterceptors
+00:08:58,388  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+00:08:58,389  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+00:08:58,389  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+00:08:58,389  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+00:08:58,390  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+00:08:58,390  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+00:08:58,390  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+00:08:58,391  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+00:08:58,392  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+00:08:58,392  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+00:08:58,392  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+00:08:58,393  INFO o.a.c.AtmosphereFramework:588 - Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+00:08:58,394  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+00:08:58,394  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+00:08:58,395  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+00:08:58,395  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+00:08:58,396  INFO o.a.i.HeartbeatInterceptor:588 - HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+00:08:58,396  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+00:08:58,396  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+00:08:58,398  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+00:08:58,399  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+00:08:58,399  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+00:08:58,399  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+00:08:58,399  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+00:08:58,400  INFO o.a.c.AtmosphereFramework:588 - Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+00:08:58,400  INFO o.a.c.AtmosphereFramework:588 - Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+00:08:58,400  INFO o.a.c.AtmosphereFramework:588 - Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+00:08:58,401  INFO o.a.c.AtmosphereFramework:588 - Broadcaster Shared List Resources: false
+00:08:58,401  INFO o.a.c.AtmosphereFramework:588 - Broadcaster Polling Wait Time 100
+00:08:58,401  INFO o.a.c.AtmosphereFramework:588 - Shared ExecutorService supported: true
+00:08:58,402  INFO o.a.c.AtmosphereFramework:588 - Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+00:08:58,403  INFO o.a.c.AtmosphereFramework:588 - Async I/O Thread Pool Size: 200
+00:08:58,403  INFO o.a.c.AtmosphereFramework:588 - Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+00:08:58,404  INFO o.a.c.AtmosphereFramework:588 - Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+00:08:58,404  INFO o.a.c.AtmosphereFramework:588 - Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+00:08:58,404  INFO o.a.c.AtmosphereFramework:588 - Invoke AtmosphereInterceptor on WebSocket message true
+00:08:58,405  INFO o.a.c.AtmosphereFramework:588 - HttpSession supported: true
+00:08:58,405  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using DefaultAtmosphereObjectFactory for dependency injection and object creation
+00:08:58,405  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Undertow - 2.0.17.Final using javax.servlet/3.0 and jsr356/WebSocket API
+00:08:58,406  INFO o.a.c.AtmosphereFramework:588 - Atmosphere Framework 2.4.30.vaadin1 started.
+00:08:58,406  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+00:08:58,452  INFO o.s.s.q.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+00:08:58,452  INFO o.q.c.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+00:08:58,459  INFO c.m.s.ContextStartedListener:44 - MyCollab is ready for usage
+00:08:58,717  INFO o.xnio:104 - XNIO version 3.3.8.Final
+00:08:58,737  INFO o.x.nio:55 - XNIO NIO Implementation Version 3.3.8.Final
+00:08:58,839  INFO o.s.b.w.e.u.UndertowServletWebServer:148 - Undertow started on port(s) 8080 (http) with context path ''
+00:08:58,845  INFO c.m.MainApplication:59 - Started MainApplication in 20.812 seconds (JVM running for 24.683)
+00:09:04,751  WARN c.v.s.DefaultDeploymentConfiguration:274 - 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+00:09:04,831  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+00:09:04,834  INFO c.m.v.AppUI:65 - Billing account info 
+00:09:05,916  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+00:09:06,252  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+00:09:06,386  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+00:09:08,020  WARN c.v.s.c.PublishedFileHandler:93 - Rejecting published file request for file that has not been published: styles.css.map
+00:10:29,281 ERROR c.m.a.AuditLogAspect:83 - Error when save audit for save action of service com.mycollab.module.project.service.impl.MilestoneServiceImpl
+java.lang.IllegalStateException: findMethod.invoke(service, typeId, sAccountId) must not be null
+	at com.mycollab.aspect.AuditLogAspect.traceBeforeUpdateActivity(AuditLogAspect.kt:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:626)
+	at org.springframework.aop.aspectj.AspectJMethodBeforeAdvice.before(AspectJMethodBeforeAdvice.java:44)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.mycollab.module.project.service.impl.MilestoneServiceImpl$$EnhancerBySpringCGLIB$$2395811f.updateSelectiveWithSession(<generated>)
+	at com.mycollab.module.project.view.milestone.ToggleMilestoneSummaryField.lambda$new$12127126$1(ToggleMilestoneSummaryField.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.vaadin.event.ListenerMethod.receiveEvent(ListenerMethod.java:499)
+	at com.vaadin.event.EventRouter.fireEvent(EventRouter.java:273)
+	at com.vaadin.event.EventRouter.fireEvent(EventRouter.java:237)
+	at com.vaadin.server.AbstractClientConnector.fireEvent(AbstractClientConnector.java:1014)
+	at com.vaadin.ui.AbstractField.setValue(AbstractField.java:144)
+	at com.vaadin.ui.CheckBox.setValue(CheckBox.java:319)
+	at com.vaadin.ui.CheckBox.lambda$new$bc87caa$1(CheckBox.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:155)
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:116)
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocation(ServerRpcHandler.java:445)
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocations(ServerRpcHandler.java:410)
+	at com.vaadin.server.communication.ServerRpcHandler.handleRpc(ServerRpcHandler.java:274)
+	at com.vaadin.server.communication.PushHandler.lambda$new$1(PushHandler.java:148)
+	at com.vaadin.server.communication.PushHandler.callWithUi(PushHandler.java:248)
+	at com.vaadin.server.communication.PushHandler.onMessage(PushHandler.java:534)
+	at com.vaadin.server.communication.PushAtmosphereHandler.onMessage(PushAtmosphereHandler.java:87)
+	at com.vaadin.server.communication.PushAtmosphereHandler.onRequest(PushAtmosphereHandler.java:77)
+	at org.atmosphere.cpr.AsynchronousProcessor.action(AsynchronousProcessor.java:225)
+	at org.atmosphere.cpr.AsynchronousProcessor.suspended(AsynchronousProcessor.java:114)
+	at org.atmosphere.container.Servlet30CometSupport.service(Servlet30CometSupport.java:67)
+	at org.atmosphere.cpr.AtmosphereFramework.doCometSupport(AtmosphereFramework.java:2297)
+	at org.atmosphere.websocket.DefaultWebSocketProcessor.dispatch(DefaultWebSocketProcessor.java:594)
+	at org.atmosphere.websocket.DefaultWebSocketProcessor$3.run(DefaultWebSocketProcessor.java:345)
+	at org.atmosphere.util.VoidExecutorService.execute(VoidExecutorService.java:101)
+	at org.atmosphere.websocket.DefaultWebSocketProcessor.dispatch(DefaultWebSocketProcessor.java:340)
+	at org.atmosphere.websocket.DefaultWebSocketProcessor.invokeWebSocketProtocol(DefaultWebSocketProcessor.java:448)
+	at org.atmosphere.container.JSR356Endpoint$3.onMessage(JSR356Endpoint.java:272)
+	at org.atmosphere.container.JSR356Endpoint$3.onMessage(JSR356Endpoint.java:269)
+	at io.undertow.websockets.jsr.FrameHandler$7.run(FrameHandler.java:286)
+	at io.undertow.websockets.jsr.ServerWebSocketContainer$1.call(ServerWebSocketContainer.java:170)
+	at io.undertow.websockets.jsr.ServerWebSocketContainer$1.call(ServerWebSocketContainer.java:167)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.websockets.jsr.ServerWebSocketContainer.invokeEndpointMethod(ServerWebSocketContainer.java:604)
+	at io.undertow.websockets.jsr.ServerWebSocketContainer.invokeEndpointMethod(ServerWebSocketContainer.java:594)
+	at io.undertow.websockets.jsr.FrameHandler.invokeTextHandler(FrameHandler.java:266)
+	at io.undertow.websockets.jsr.FrameHandler.onFullTextMessage(FrameHandler.java:317)
+	at io.undertow.websockets.core.AbstractReceiveListener$2.complete(AbstractReceiveListener.java:156)
+	at io.undertow.websockets.core.AbstractReceiveListener$2.complete(AbstractReceiveListener.java:152)
+	at io.undertow.websockets.core.BufferedTextMessage.read(BufferedTextMessage.java:105)
+	at io.undertow.websockets.core.AbstractReceiveListener.readBufferedText(AbstractReceiveListener.java:152)
+	at io.undertow.websockets.core.AbstractReceiveListener.bufferFullMessage(AbstractReceiveListener.java:90)
+	at io.undertow.websockets.jsr.FrameHandler.onText(FrameHandler.java:182)
+	at io.undertow.websockets.core.AbstractReceiveListener.handleEvent(AbstractReceiveListener.java:44)
+	at io.undertow.websockets.core.AbstractReceiveListener.handleEvent(AbstractReceiveListener.java:33)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameReadListener.handleEvent(AbstractFramedChannel.java:948)
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameReadListener.handleEvent(AbstractFramedChannel.java:929)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66)
+	at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:88)
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:561)
+00:15:06,006  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+00:15:06,011  INFO c.m.v.AppUI:65 - Billing account info 
+00:15:07,058  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+00:15:07,227  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+00:15:07,312  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+00:15:07,568  WARN c.v.s.c.PublishedFileHandler:93 - Rejecting published file request for file that has not been published: styles.css.map
+00:20:44,554 ERROR c.m.v.m.UrlResolver:76 - Error while navigation [user, forgotpassword] for the resolver com.mycollab.shell.view.ShellUrlResolver@733d31f
+com.mycollab.core.ResourceNotFoundException: Can not find resolver key user for Resolver: com.mycollab.shell.view.ShellUrlResolver@733d31f
+	at com.mycollab.vaadin.mvp.UrlResolver.handle(UrlResolver.kt:67)
+	at com.mycollab.shell.view.ShellUrlResolver.resolveFragment(ShellUrlResolver.kt:42)
+	at com.mycollab.web.DesktopApplication.enter(DesktopApplication.java:283)
+	at com.mycollab.web.DesktopApplication.lambda$init$5a61dd20$1(DesktopApplication.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.vaadin.event.ListenerMethod.receiveEvent(ListenerMethod.java:499)
+	at com.vaadin.event.EventRouter.fireEvent(EventRouter.java:273)
+	at com.vaadin.event.EventRouter.fireEvent(EventRouter.java:237)
+	at com.vaadin.server.Page.fireEvent(Page.java:699)
+	at com.vaadin.server.Page.updateLocation(Page.java:1126)
+	at com.vaadin.ui.UI$1.popstate(UI.java:206)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:155)
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:116)
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocation(ServerRpcHandler.java:445)
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocations(ServerRpcHandler.java:410)
+	at com.vaadin.server.communication.ServerRpcHandler.handleRpc(ServerRpcHandler.java:274)
+	at com.vaadin.server.communication.PushHandler.lambda$new$1(PushHandler.java:148)
+	at com.vaadin.server.communication.PushHandler.callWithUi(PushHandler.java:248)
+	at com.vaadin.server.communication.PushHandler.onMessage(PushHandler.java:534)
+	at com.vaadin.server.communication.PushAtmosphereHandler.onMessage(PushAtmosphereHandler.java:87)
+	at com.vaadin.server.communication.PushAtmosphereHandler.onRequest(PushAtmosphereHandler.java:77)
+	at org.atmosphere.cpr.AsynchronousProcessor.action(AsynchronousProcessor.java:225)
+	at org.atmosphere.cpr.AsynchronousProcessor.suspended(AsynchronousProcessor.java:114)
+	at org.atmosphere.container.Servlet30CometSupport.service(Servlet30CometSupport.java:67)
+	at org.atmosphere.cpr.AtmosphereFramework.doCometSupport(AtmosphereFramework.java:2297)
+	at org.atmosphere.websocket.DefaultWebSocketProcessor.dispatch(DefaultWebSocketProcessor.java:594)
+	at org.atmosphere.websocket.DefaultWebSocketProcessor$3.run(DefaultWebSocketProcessor.java:345)
+	at org.atmosphere.util.VoidExecutorService.execute(VoidExecutorService.java:101)
+	at org.atmosphere.websocket.DefaultWebSocketProcessor.dispatch(DefaultWebSocketProcessor.java:340)
+	at org.atmosphere.websocket.DefaultWebSocketProcessor.invokeWebSocketProtocol(DefaultWebSocketProcessor.java:448)
+	at org.atmosphere.container.JSR356Endpoint$3.onMessage(JSR356Endpoint.java:272)
+	at org.atmosphere.container.JSR356Endpoint$3.onMessage(JSR356Endpoint.java:269)
+	at io.undertow.websockets.jsr.FrameHandler$7.run(FrameHandler.java:286)
+	at io.undertow.websockets.jsr.ServerWebSocketContainer$1.call(ServerWebSocketContainer.java:170)
+	at io.undertow.websockets.jsr.ServerWebSocketContainer$1.call(ServerWebSocketContainer.java:167)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.websockets.jsr.ServerWebSocketContainer.invokeEndpointMethod(ServerWebSocketContainer.java:604)
+	at io.undertow.websockets.jsr.ServerWebSocketContainer.invokeEndpointMethod(ServerWebSocketContainer.java:594)
+	at io.undertow.websockets.jsr.FrameHandler.invokeTextHandler(FrameHandler.java:266)
+	at io.undertow.websockets.jsr.FrameHandler.onFullTextMessage(FrameHandler.java:317)
+	at io.undertow.websockets.core.AbstractReceiveListener$2.complete(AbstractReceiveListener.java:156)
+	at io.undertow.websockets.core.AbstractReceiveListener$2.complete(AbstractReceiveListener.java:152)
+	at io.undertow.websockets.core.BufferedTextMessage.read(BufferedTextMessage.java:105)
+	at io.undertow.websockets.core.AbstractReceiveListener.readBufferedText(AbstractReceiveListener.java:152)
+	at io.undertow.websockets.core.AbstractReceiveListener.bufferFullMessage(AbstractReceiveListener.java:90)
+	at io.undertow.websockets.jsr.FrameHandler.onText(FrameHandler.java:182)
+	at io.undertow.websockets.core.AbstractReceiveListener.handleEvent(AbstractReceiveListener.java:44)
+	at io.undertow.websockets.core.AbstractReceiveListener.handleEvent(AbstractReceiveListener.java:33)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameReadListener.handleEvent(AbstractFramedChannel.java:948)
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameReadListener.handleEvent(AbstractFramedChannel.java:929)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66)
+	at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:88)
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:561)
+00:21:12,137  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+00:21:12,144  INFO c.m.v.AppUI:65 - Billing account info 
+00:21:13,324  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+00:21:21,834  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+00:21:21,839  INFO c.m.v.AppUI:65 - Billing account info 
+00:21:22,909  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+00:22:09,261  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+00:22:09,266  INFO c.m.v.AppUI:65 - Billing account info 
+00:22:10,404  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+00:23:38,604  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+00:23:38,608  INFO c.m.v.AppUI:65 - Billing account info 
+00:23:39,694  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+00:23:51,256  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+00:23:51,276  INFO c.m.v.AppUI:65 - Billing account info 
+00:23:52,352  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+00:24:25,852  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+00:24:25,856  INFO c.m.v.AppUI:65 - Billing account info 
+00:24:26,954  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+00:24:52,878  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+00:24:52,882  INFO c.m.v.AppUI:65 - Billing account info 
+00:24:53,956  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+00:25:01,107  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+00:25:01,112  INFO c.m.v.AppUI:65 - Billing account info 
+00:25:02,231  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+00:25:13,494  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+00:25:13,500  INFO c.m.v.AppUI:65 - Billing account info 
+00:25:14,628  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+00:25:52,503  INFO o.q.c.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+00:25:52,509  INFO o.s.s.q.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+00:25:52,509  INFO o.q.c.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+00:25:52,509  INFO o.q.c.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+00:25:52,511  INFO o.q.c.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+00:25:52,513  INFO o.s.s.c.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+00:25:52,519  INFO o.a.j.c.RepositoryImpl:1087 - Shutting down repository...
+00:25:52,521  INFO o.a.j.c.RepositoryImpl:2196 - shutting down workspace 'default2'...
+00:25:52,521  INFO o.a.j.c.o.ObservationDispatcher:121 - Notification of EventListeners stopped.
+00:25:52,526  INFO o.a.j.c.RepositoryImpl:2203 - workspace 'default2' has been shutdown
+00:25:52,526  INFO o.a.j.c.RepositoryImpl:2196 - shutting down workspace 'ecm'...
+00:25:52,526  INFO o.a.j.c.o.ObservationDispatcher:121 - Notification of EventListeners stopped.
+00:25:52,561  INFO o.a.j.c.RepositoryImpl:2203 - workspace 'ecm' has been shutdown
+00:25:52,569  INFO o.a.j.c.RepositoryImpl:1192 - Repository has been shutdown
+00:25:52,570  INFO o.a.j.c.RepositoryImpl:1087 - Shutting down repository...
+00:25:52,571  INFO o.a.j.c.RepositoryImpl:2196 - shutting down workspace 'wiki'...
+00:25:52,572  INFO o.a.j.c.o.ObservationDispatcher:121 - Notification of EventListeners stopped.
+00:25:52,600  INFO o.a.j.c.RepositoryImpl:2203 - workspace 'wiki' has been shutdown
+00:25:52,602  INFO o.a.j.c.RepositoryImpl:1192 - Repository has been shutdown
+00:25:52,608  INFO c.z.h.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+00:25:52,617  INFO c.z.h.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+00:25:59,854  INFO c.m.MainApplication:50 - Starting MainApplication on wangyang-PC with PID 7947 (/home/wangyang/workspace/mycollab-master/mycollab-server-runner/target/classes started by wangyang in /home/wangyang/workspace/mycollab-master/mycollab-parent-community)
+00:25:59,868  INFO c.m.MainApplication:675 - No active profile set, falling back to default profiles: default
+00:26:03,346  INFO o.s.c.a.ConfigurationClassPostProcessor:380 - Cannot enhance @Configuration bean definition 'com.vaadin.spring.VaadinConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+00:26:04,384  INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$94d4f57c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+00:26:05,165  WARN i.u.w.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+00:26:05,209  INFO i.u.servlet:364 - Initializing Spring embedded WebApplicationContext
+00:26:05,210  INFO o.s.w.c.ContextLoader:296 - Root WebApplicationContext: initialization completed in 5105 ms
+00:26:05,311  INFO c.v.s.b.i.VaadinServletConfiguration:261 - Registering Vaadin servlet
+00:26:05,312  INFO c.v.s.b.i.VaadinServletConfiguration:263 - Servlet will be mapped to URLs [/vaadinServlet/*, /VAADIN/*]
+00:26:05,331  INFO c.v.s.b.i.VaadinServletConfiguration:282 - Setting servlet init parameters
+00:26:05,331  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [productionMode] = [false]
+00:26:05,331  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [resourceCacheTime] = [3600]
+00:26:05,332  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [heartbeatInterval] = [300]
+00:26:05,332  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [closeIdleSessions] = [false]
+00:26:05,680  INFO c.z.h.HikariDataSource:110 - HikariPool-1 - Starting...
+00:26:05,914  INFO c.z.h.HikariDataSource:123 - HikariPool-1 - Start completed.
+00:26:05,942  INFO o.f.c.i.l.VersionPrinter:49 - Flyway Community Edition 5.2.4 by Boxfuse
+00:26:05,960  INFO o.f.c.i.d.DatabaseFactory:49 - Database: jdbc:mysql://localhost:3306/mycollab (MySQL 8.0)
+00:26:06,300  INFO o.f.c.i.c.DbMigrate:49 - Current version of schema `mycollab`: 20190416.1
+00:26:06,301  INFO o.f.c.i.c.DbMigrate:49 - Schema `mycollab` is up to date. No migration necessary.
+00:26:11,233  INFO o.a.j.c.RepositoryImpl:259 - Starting repository...
+00:26:11,541  INFO o.a.j.c.RepositoryImpl:2035 - initializing workspace 'wiki'...
+00:26:11,651  INFO o.a.j.c.RepositoryImpl:2039 - workspace 'wiki' initialized
+00:26:11,656  INFO o.a.j.c.RepositoryImpl:455 - SecurityManager = class org.apache.jackrabbit.core.security.simple.SimpleSecurityManager
+00:26:11,657  INFO o.a.j.c.s.s.SimpleSecurityManager:137 - init: using Repository LoginModule configuration for Jackrabbit
+00:26:11,664  INFO o.a.j.c.RepositoryImpl:367 - Repository started (431ms)
+00:26:11,686  INFO c.m.m.p.PageSessionFactory:41 - Register node types
+00:26:12,218  INFO c.m.m.p.PageSessionFactory:66 - Register MyCollab content type
+00:26:12,867  INFO o.a.j.c.RepositoryImpl:259 - Starting repository...
+00:26:12,936  INFO o.a.j.c.j.DatabaseJournal:374 - Initialized local revision to 140
+00:26:12,937  INFO o.a.j.c.j.DatabaseJournal:383 - Cluster revision janitor thread not started
+00:26:12,937  INFO o.a.j.c.j.DatabaseJournal:280 - DatabaseJournal initialized.
+00:26:12,960  INFO o.a.j.c.RepositoryImpl:2035 - initializing workspace 'ecm'...
+00:26:12,985  INFO o.a.j.c.RepositoryImpl:2039 - workspace 'ecm' initialized
+00:26:12,985  INFO o.a.j.c.RepositoryImpl:455 - SecurityManager = class org.apache.jackrabbit.core.security.simple.SimpleSecurityManager
+00:26:12,986  INFO o.a.j.c.RepositoryImpl:2035 - initializing workspace 'default2'...
+00:26:13,002  INFO o.a.j.c.RepositoryImpl:2039 - workspace 'default2' initialized
+00:26:13,003  INFO o.a.j.c.s.s.SimpleSecurityManager:137 - init: using Repository LoginModule configuration for Jackrabbit
+00:26:13,011  INFO o.a.j.c.RepositoryImpl:367 - Repository started (144ms)
+00:26:13,015  INFO c.m.m.e.ContentSessionFactory:40 - Register node types
+00:26:13,019  INFO c.m.m.e.ContentSessionFactory:66 - Register mycollab content type
+00:26:14,006  INFO c.m.v.m.s.ComponentScannerService:51 - Started resolving view and presenter classes
+00:26:14,921  INFO c.m.v.m.s.ComponentScannerService:61 - Resolved view and presenter classes com.mycollab.vaadin.mvp.service.ComponentScannerService@35b79b1f that has 65 view classes and 58 presenter classes
+00:26:15,677  INFO o.s.s.c.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+00:26:15,985  INFO c.v.s.b.i.VaadinServletConfiguration:121 - Checking the application context for Vaadin UI mappings
+00:26:15,997  INFO c.v.s.b.i.VaadinServletConfiguration:110 - Forwarding @SpringUI URLs from {}
+00:26:16,002  INFO c.v.s.b.i.VaadinServletConfiguration:206 - Registering Vaadin servlet of type [com.vaadin.spring.server.SpringVaadinServlet]
+00:26:16,488  INFO o.q.i.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+00:26:16,519  INFO o.q.c.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+00:26:16,519  INFO o.q.c.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+00:26:16,521  INFO o.q.s.RAMJobStore:155 - RAMJobStore initialized.
+00:26:16,522  INFO o.q.c.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+00:26:16,523  INFO o.q.i.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+00:26:16,523  INFO o.q.i.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+00:26:16,523  INFO o.q.c.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@55bafbc1
+00:26:16,779  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+00:26:16,780  INFO o.a.c.AtmosphereFramework:588 - Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+00:26:16,840  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+00:26:16,874  INFO o.a.u.ForkJoinPool:588 - Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+00:26:16,887  INFO o.a.c.AtmosphereFramework:588 - Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+00:26:16,897  INFO o.a.c.JSR356AsyncSupport:588 - JSR 356 Mapping path 
+00:26:16,902  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /
+00:26:16,907  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /{path0}
+00:26:16,908  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /{path0}/{path1}
+00:26:16,909  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /{path0}/{path1}/{path2}
+00:26:16,909  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /{path0}/{path1}/{path2}/{path3}
+00:26:16,910  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /{path0}/{path1}/{path2}/{path3}/{path4}
+00:26:16,910  INFO o.a.c.AtmosphereFramework:588 - Installing Default AtmosphereInterceptors
+00:26:16,911  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+00:26:16,912  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+00:26:16,914  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+00:26:16,915  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+00:26:16,916  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+00:26:16,917  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+00:26:16,918  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+00:26:16,920  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+00:26:16,921  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+00:26:16,922  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+00:26:16,923  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+00:26:16,923  INFO o.a.c.AtmosphereFramework:588 - Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+00:26:16,924  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+00:26:16,937  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+00:26:16,939  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+00:26:16,939  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+00:26:16,940  INFO o.a.i.HeartbeatInterceptor:588 - HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+00:26:16,941  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+00:26:16,942  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+00:26:16,943  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+00:26:16,943  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+00:26:16,944  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+00:26:16,944  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+00:26:16,944  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+00:26:16,945  INFO o.a.c.AtmosphereFramework:588 - Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+00:26:16,945  INFO o.a.c.AtmosphereFramework:588 - Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+00:26:16,946  INFO o.a.c.AtmosphereFramework:588 - Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+00:26:16,947  INFO o.a.c.AtmosphereFramework:588 - Broadcaster Shared List Resources: false
+00:26:16,948  INFO o.a.c.AtmosphereFramework:588 - Broadcaster Polling Wait Time 100
+00:26:16,949  INFO o.a.c.AtmosphereFramework:588 - Shared ExecutorService supported: true
+00:26:16,949  INFO o.a.c.AtmosphereFramework:588 - Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+00:26:16,949  INFO o.a.c.AtmosphereFramework:588 - Async I/O Thread Pool Size: 200
+00:26:16,949  INFO o.a.c.AtmosphereFramework:588 - Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+00:26:16,950  INFO o.a.c.AtmosphereFramework:588 - Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+00:26:16,951  INFO o.a.c.AtmosphereFramework:588 - Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+00:26:16,957  INFO o.a.c.AtmosphereFramework:588 - Invoke AtmosphereInterceptor on WebSocket message true
+00:26:16,958  INFO o.a.c.AtmosphereFramework:588 - HttpSession supported: true
+00:26:16,958  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using DefaultAtmosphereObjectFactory for dependency injection and object creation
+00:26:16,960  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Undertow - 2.0.17.Final using javax.servlet/3.0 and jsr356/WebSocket API
+00:26:16,960  INFO o.a.c.AtmosphereFramework:588 - Atmosphere Framework 2.4.30.vaadin1 started.
+00:26:16,968  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+00:26:16,969  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+00:26:16,969  INFO o.a.c.AtmosphereFramework:588 - Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+00:26:16,977  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+00:26:16,984  INFO o.a.u.ForkJoinPool:588 - Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+00:26:16,985  INFO o.a.c.AtmosphereFramework:588 - Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+00:26:16,985  WARN o.a.u.IOUtils:588 - More than one Servlet Mapping defined. WebSocket may not work io.undertow.servlet.spec.ServletRegistrationImpl@1f591b2e
+00:26:16,986  INFO o.a.c.JSR356AsyncSupport:588 - JSR 356 Mapping path /vaadinServlet
+00:26:16,986  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet
+00:26:16,986  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/
+00:26:16,987  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}
+00:26:16,987  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}
+00:26:16,987  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}
+00:26:16,987  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}/{path3}
+00:26:16,990  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}/{path3}/{path4}
+00:26:16,990  INFO o.a.c.AtmosphereFramework:588 - Installing Default AtmosphereInterceptors
+00:26:16,990  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+00:26:16,991  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+00:26:16,991  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+00:26:16,991  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+00:26:16,991  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+00:26:16,992  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+00:26:16,992  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+00:26:16,992  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+00:26:16,992  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+00:26:16,993  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+00:26:16,993  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+00:26:16,993  INFO o.a.c.AtmosphereFramework:588 - Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+00:26:16,993  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+00:26:16,993  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+00:26:16,994  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+00:26:16,994  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+00:26:16,994  INFO o.a.i.HeartbeatInterceptor:588 - HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+00:26:16,995  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+00:26:16,995  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+00:26:16,996  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+00:26:16,996  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+00:26:16,997  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+00:26:16,997  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+00:26:16,997  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+00:26:16,998  INFO o.a.c.AtmosphereFramework:588 - Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+00:26:16,998  INFO o.a.c.AtmosphereFramework:588 - Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+00:26:16,999  INFO o.a.c.AtmosphereFramework:588 - Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+00:26:16,999  INFO o.a.c.AtmosphereFramework:588 - Broadcaster Shared List Resources: false
+00:26:16,999  INFO o.a.c.AtmosphereFramework:588 - Broadcaster Polling Wait Time 100
+00:26:17,000  INFO o.a.c.AtmosphereFramework:588 - Shared ExecutorService supported: true
+00:26:17,000  INFO o.a.c.AtmosphereFramework:588 - Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+00:26:17,000  INFO o.a.c.AtmosphereFramework:588 - Async I/O Thread Pool Size: 200
+00:26:17,000  INFO o.a.c.AtmosphereFramework:588 - Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+00:26:17,001  INFO o.a.c.AtmosphereFramework:588 - Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+00:26:17,001  INFO o.a.c.AtmosphereFramework:588 - Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+00:26:17,001  INFO o.a.c.AtmosphereFramework:588 - Invoke AtmosphereInterceptor on WebSocket message true
+00:26:17,002  INFO o.a.c.AtmosphereFramework:588 - HttpSession supported: true
+00:26:17,002  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using DefaultAtmosphereObjectFactory for dependency injection and object creation
+00:26:17,002  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Undertow - 2.0.17.Final using javax.servlet/3.0 and jsr356/WebSocket API
+00:26:17,003  INFO o.a.c.AtmosphereFramework:588 - Atmosphere Framework 2.4.30.vaadin1 started.
+00:26:17,003  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+00:26:17,038  INFO o.s.s.q.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+00:26:17,038  INFO o.q.c.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+00:26:17,039  INFO c.m.s.ContextStartedListener:44 - MyCollab is ready for usage
+00:26:17,169  INFO o.xnio:104 - XNIO version 3.3.8.Final
+00:26:17,200  INFO o.x.nio:55 - XNIO NIO Implementation Version 3.3.8.Final
+00:26:17,343  INFO o.s.b.w.e.u.UndertowServletWebServer:148 - Undertow started on port(s) 8080 (http) with context path ''
+00:26:17,349  INFO c.m.MainApplication:59 - Started MainApplication in 19.759 seconds (JVM running for 21.283)
+00:26:25,963  WARN c.v.s.DefaultDeploymentConfiguration:274 - 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+00:26:26,069  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+00:26:26,072  INFO c.m.v.AppUI:65 - Billing account info 
+00:26:27,148  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+00:26:51,399  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+00:26:51,401  INFO c.m.v.AppUI:65 - Billing account info 
+00:26:52,477  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+00:27:06,260  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+00:27:06,270  INFO c.m.v.AppUI:65 - Billing account info 
+00:27:07,327  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+00:27:57,717  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+00:27:57,742  INFO c.m.v.AppUI:65 - Billing account info 
+00:27:58,353  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+00:27:58,700  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 327533394@qq.com in sub-domain 
+00:27:58,989  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 327533394@qq.com - lisi li
+00:29:24,559  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+00:29:24,566  INFO c.m.v.AppUI:65 - Billing account info 
+00:29:25,712  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+00:31:26,012  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+00:31:26,019  INFO c.m.v.AppUI:65 - Billing account info 
+00:31:27,074  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+00:34:01,525  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+00:34:01,641  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+00:34:01,905  WARN c.v.s.c.PublishedFileHandler:93 - Rejecting published file request for file that has not been published: styles.css.map
+00:34:27,124  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+00:34:27,133  INFO c.m.v.AppUI:65 - Billing account info 
+00:34:28,229  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+00:34:36,452  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+00:34:36,455  INFO c.m.v.AppUI:65 - Billing account info 
+00:34:37,578  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+00:34:44,203  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+00:34:44,288  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+00:34:44,897  WARN c.v.s.c.PublishedFileHandler:93 - Rejecting published file request for file that has not been published: styles.css.map
+00:44:57,481  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+00:44:57,485  INFO c.m.v.AppUI:65 - Billing account info 
+00:44:58,599  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+00:44:58,757  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+00:44:58,833  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+00:44:59,589  WARN c.v.s.c.PublishedFileHandler:93 - Rejecting published file request for file that has not been published: styles.css.map
+00:45:39,009  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+00:45:39,014  INFO c.m.v.AppUI:65 - Billing account info 
+00:45:40,067  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+00:45:40,379  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+00:45:40,436  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+00:45:40,706  WARN c.v.s.c.PublishedFileHandler:93 - Rejecting published file request for file that has not been published: styles.css.map
+00:50:32,477  WARN c.v.s.c.PublishedFileHandler:93 - Rejecting published file request for file that has not been published: styles.css.map
+01:12:12,190  WARN c.z.h.p.HikariPool:766 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m56s830ms866µs276ns).
+01:14:07,371  WARN c.z.h.p.HikariPool:766 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m16s894ms922µs548ns).
+01:21:45,289  WARN c.z.h.p.HikariPool:766 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m23s110ms374µs696ns).
+01:22:31,909  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+01:22:31,922  INFO c.m.v.AppUI:65 - Billing account info 
+01:22:32,705  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+01:22:39,258  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+01:22:39,430  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+01:30:49,033  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+01:30:49,037  INFO c.m.v.AppUI:65 - Billing account info 
+01:30:49,703  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+01:30:49,825  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+01:30:49,932  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+01:32:04,861  WARN c.v.s.c.PublishedFileHandler:93 - Rejecting published file request for file that has not been published: styles.css.map
+02:00:48,763  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+02:00:48,769  INFO c.m.v.AppUI:65 - Billing account info 
+02:00:49,593  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+02:00:49,799  WARN c.v.s.c.ServerRpcHandler:266 - Unexpected message id from the client. Expected: 1, got: 2
+02:01:06,542  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+02:01:06,546  INFO c.m.v.AppUI:65 - Billing account info 
+02:01:07,148  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+02:01:14,390  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+02:01:14,488  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+02:01:27,341  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+02:01:27,344  INFO c.m.v.AppUI:65 - Billing account info 
+02:01:27,655  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+02:01:27,724  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+02:01:27,870  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+02:02:28,819  WARN c.z.h.p.HikariPool:766 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m5s981ms557µs872ns).
+02:03:12,442  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+02:03:12,445  INFO c.m.v.AppUI:65 - Billing account info 
+02:03:12,756  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+02:03:12,818  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+02:03:12,905  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+02:03:46,259  WARN c.z.h.p.HikariPool:766 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s587ms320µs94ns).
+02:03:48,444  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+02:03:48,447  INFO c.m.v.AppUI:65 - Billing account info 
+02:03:48,767  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+02:03:48,838  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+02:03:48,923  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+02:06:21,406  WARN c.v.s.c.PublishedFileHandler:93 - Rejecting published file request for file that has not been published: styles.css.map
+02:10:14,507  WARN c.v.s.c.PublishedFileHandler:93 - Rejecting published file request for file that has not been published: styles.css.map
+02:12:38,949  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+02:12:38,953  INFO c.m.v.AppUI:65 - Billing account info 
+02:12:40,080  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+02:12:40,366  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+02:12:40,467  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+02:13:28,456  WARN c.v.s.c.PublishedFileHandler:93 - Rejecting published file request for file that has not been published: styles.css.map
+02:14:07,629  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+02:14:07,633  INFO c.m.v.AppUI:65 - Billing account info 
+02:14:08,850  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+02:14:08,928  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+02:14:09,011  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+02:14:49,567  WARN c.z.h.p.HikariPool:766 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51s391ms821µs651ns).
+02:16:09,112  WARN c.z.h.p.HikariPool:766 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m19s545ms435µs788ns).
+02:16:09,455  WARN c.v.s.c.PublishedFileHandler:93 - Rejecting published file request for file that has not been published: styles.css.map
+02:16:14,521  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+02:16:14,523  INFO c.m.v.AppUI:65 - Billing account info 
+02:16:15,656  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+02:16:15,854  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+02:16:16,011  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+02:16:19,440  WARN c.v.s.c.PublishedFileHandler:93 - Rejecting published file request for file that has not been published: styles.css.map
+02:21:02,948  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+02:21:02,952  INFO c.m.v.AppUI:65 - Billing account info 
+02:21:04,011  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+02:21:04,232  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+02:21:04,319  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+02:21:04,498  WARN c.v.s.c.PublishedFileHandler:93 - Rejecting published file request for file that has not been published: styles.css.map
+02:21:44,522  INFO c.m.r.SimpleReportTemplateExecutor:38 - Export document: PDF
+02:21:44,673  INFO c.m.r.SimpleReportTemplateExecutor:62 - Fill report 23 items and criteria com.mycollab.module.project.domain.criteria.ProjectTicketSearchCriteria@1a427899
+02:33:00,079  WARN c.z.h.p.HikariPool:766 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s812ms99µs728ns).
+02:33:57,876  WARN c.z.h.p.HikariPool:766 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57s796ms431µs335ns).
+02:34:43,876  WARN c.z.h.p.HikariPool:766 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s192µs452ns).
+02:35:57,213  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+02:35:57,218  INFO c.m.v.AppUI:65 - Billing account info 
+02:35:58,330  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+02:35:58,838  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+02:35:58,912  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+02:37:11,393  WARN c.z.h.p.HikariPool:766 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m27s517ms168µs386ns).
+02:37:13,972  WARN c.v.s.c.PublishedFileHandler:93 - Rejecting published file request for file that has not been published: styles.css.map
+02:37:18,618  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+02:37:18,622  INFO c.m.v.AppUI:65 - Billing account info 
+02:37:19,715  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+02:37:20,177  WARN c.v.s.c.ServerRpcHandler:266 - Unexpected message id from the client. Expected: 1, got: 2
+02:37:36,370  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+02:37:36,373  INFO c.m.v.AppUI:65 - Billing account info 
+02:37:37,485  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+02:37:37,667  WARN c.v.s.c.ServerRpcHandler:266 - Unexpected message id from the client. Expected: 1, got: 2
+02:37:40,728  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+02:37:40,731  INFO c.m.v.AppUI:65 - Billing account info 
+02:37:41,918  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+02:37:42,059  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+02:37:42,127  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+02:38:35,526  WARN c.z.h.p.HikariPool:766 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s132ms78µs789ns).
+02:38:40,037  WARN c.v.s.c.PublishedFileHandler:93 - Rejecting published file request for file that has not been published: styles.css.map
+02:39:06,532  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+02:39:06,535  INFO c.m.v.AppUI:65 - Billing account info 
+02:39:07,626  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+02:39:07,955  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+02:39:08,043  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+02:40:48,852  WARN c.z.h.p.HikariPool:766 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m43s324ms365µs278ns).
+02:40:55,558  WARN c.v.s.c.PublishedFileHandler:93 - Rejecting published file request for file that has not been published: styles.css.map
+02:42:30,549  WARN c.z.h.p.HikariPool:766 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s802ms102µs901ns).
+02:42:33,688  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+02:42:33,692  INFO c.m.v.AppUI:65 - Billing account info 
+02:42:34,784  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+02:42:34,988  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+02:42:35,084  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+02:43:30,106  WARN c.z.h.p.HikariPool:766 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59s557ms499µs331ns).
+02:43:31,230  WARN c.v.s.c.PublishedFileHandler:93 - Rejecting published file request for file that has not been published: styles.css.map
+02:43:34,548  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+02:43:34,552  INFO c.m.v.AppUI:65 - Billing account info 
+02:43:35,481  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+02:44:23,833  WARN c.z.h.p.HikariPool:766 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s726ms751µs716ns).
+02:44:24,500  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+02:44:57,728  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+02:44:57,730  INFO c.m.v.AppUI:65 - Billing account info 
+02:44:58,650  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+02:45:04,538  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+02:45:09,938  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+02:45:09,940  INFO c.m.v.AppUI:65 - Billing account info 
+02:45:11,079  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+02:45:28,621  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+02:46:07,785  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+02:46:12,186  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+02:46:12,192  INFO c.m.v.AppUI:65 - Billing account info 
+02:46:13,268  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+02:46:32,290  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+02:46:32,351  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+02:46:36,718  WARN c.v.s.c.PublishedFileHandler:93 - Rejecting published file request for file that has not been published: styles.css.map
+02:46:39,770  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+02:46:39,774  INFO c.m.v.AppUI:65 - Billing account info 
+02:46:40,897  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+02:47:01,755  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+02:47:01,870  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+02:47:03,734  WARN c.v.s.c.PublishedFileHandler:93 - Rejecting published file request for file that has not been published: styles.css.map
+02:48:43,753  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+02:48:43,756  INFO c.m.v.AppUI:65 - Billing account info 
+02:48:44,886  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+02:48:45,099  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+02:48:45,181  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+02:49:59,885  WARN c.z.h.p.HikariPool:766 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s884ms242µs679ns).
+02:50:36,602  WARN c.v.s.c.PublishedFileHandler:93 - Rejecting published file request for file that has not been published: styles.css.map
+02:50:40,445  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+02:50:40,450  INFO c.m.v.AppUI:65 - Billing account info 
+02:50:41,143  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+02:50:41,426  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+02:50:41,512  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+02:52:06,261  WARN c.v.s.c.PublishedFileHandler:93 - Rejecting published file request for file that has not been published: styles.css.map
+02:54:00,097  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+02:54:00,101  INFO c.m.v.AppUI:65 - Billing account info 
+02:54:01,335  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+02:54:01,569  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+02:54:01,643  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+02:54:01,928  WARN c.v.s.c.PublishedFileHandler:93 - Rejecting published file request for file that has not been published: styles.css.map
+02:54:35,873  INFO c.m.v.AppUI:59 - Load account info of sub-domain 192.168.0.155 from 192.168.0.155
+02:54:35,878  INFO c.m.v.AppUI:65 - Billing account info 
+02:54:37,078  WARN c.v.s.c.ServerRpcHandler:300 - 
+=================================================================
+The widgetset in use does not seem to be built for the Vaadin
+version in use. This might cause strange problems - a
+recompile/deploy is strongly recommended.
+ Vaadin version: 8.8.5
+ Widgetset version: 8.8.0
+=================================================================
+02:54:37,297  INFO c.m.m.u.s.m.UserServiceDBImpl:261 - Authenticate user 1749748955@qq.com in sub-domain 
+02:54:37,573  INFO c.m.w.DesktopApplication:317 - Get billing account successfully - Pricing: 0.0, Account: 1, User: 1749748955@qq.com -  1749748955
+02:56:16,302  WARN c.z.h.p.HikariPool:766 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m28ms555µs188ns).
+02:56:31,362  WARN c.v.s.c.PublishedFileHandler:93 - Rejecting published file request for file that has not been published: styles.css.map
+06:00:00,733 ERROR c.m.s.j.GenericQuartzJobBean:49 - Exception in running schedule
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "https://api.mycollab.com/checkInstance": api.mycollab.com; nested exception is java.net.UnknownHostException: api.mycollab.com
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:744)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:670)
+	at org.springframework.web.client.RestTemplate.postForObject(RestTemplate.java:414)
+	at com.mycollab.schedule.jobs.LiveInstanceMonitorJob.executeJob(LiveInstanceMonitorJob.kt:69)
+	at com.mycollab.schedule.jobs.GenericQuartzJobBean.executeInternal(GenericQuartzJobBean.kt:41)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.net.UnknownHostException: api.mycollab.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:196)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:287)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:292)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:395)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:203)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:189)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:167)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:735)
+	... 7 common frames omitted
+08:00:00,280 ERROR c.m.s.j.GenericQuartzJobBean:49 - Exception in running schedule
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "https://api.mycollab.com/checkupdate": api.mycollab.com; nested exception is java.net.UnknownHostException: api.mycollab.com
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:744)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:670)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:311)
+	at com.mycollab.community.schedule.jobs.CheckUpdateJob.executeJob(CheckUpdateJob.java:64)
+	at com.mycollab.schedule.jobs.GenericQuartzJobBean.executeInternal(GenericQuartzJobBean.kt:41)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.net.UnknownHostException: api.mycollab.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:196)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:287)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:292)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:395)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:203)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:189)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:167)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:735)
+	... 7 common frames omitted
+08:42:59,006  INFO o.q.c.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+08:42:59,008  INFO o.s.s.q.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+08:42:59,009  INFO o.q.c.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+08:42:59,009  INFO o.q.c.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+08:42:59,013  INFO o.q.c.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+08:42:59,026  INFO o.s.s.c.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+08:42:59,035  INFO o.a.j.c.RepositoryImpl:1087 - Shutting down repository...
+08:42:59,036  INFO o.a.j.c.RepositoryImpl:2196 - shutting down workspace 'default2'...
+08:42:59,040  INFO o.a.j.c.o.ObservationDispatcher:121 - Notification of EventListeners stopped.
+08:42:59,047  INFO o.a.j.c.RepositoryImpl:2203 - workspace 'default2' has been shutdown
+08:42:59,048  INFO o.a.j.c.RepositoryImpl:2196 - shutting down workspace 'ecm'...
+08:42:59,052  INFO o.a.j.c.o.ObservationDispatcher:121 - Notification of EventListeners stopped.
+08:42:59,072  INFO o.a.j.c.RepositoryImpl:2203 - workspace 'ecm' has been shutdown
+08:42:59,078  INFO o.a.j.c.RepositoryImpl:1192 - Repository has been shutdown
+08:42:59,080  INFO o.a.j.c.RepositoryImpl:1087 - Shutting down repository...
+08:42:59,081  INFO o.a.j.c.RepositoryImpl:2196 - shutting down workspace 'wiki'...
+08:42:59,084  INFO o.a.j.c.o.ObservationDispatcher:121 - Notification of EventListeners stopped.
+08:42:59,106  INFO o.a.j.c.RepositoryImpl:2203 - workspace 'wiki' has been shutdown
+08:42:59,108  INFO o.a.j.c.RepositoryImpl:1192 - Repository has been shutdown
+08:42:59,111  INFO c.z.h.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+08:42:59,121  INFO c.z.h.HikariDataSource:352 - HikariPool-1 - Shutdown completed.

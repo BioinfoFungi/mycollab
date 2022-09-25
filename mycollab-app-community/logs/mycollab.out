@@ -1,0 +1,876 @@
+00:58:15,164  INFO c.m.s.DefaultServerRunner:50 - Starting DefaultServerRunner on wangyang-PC with PID 16561 (/home/wangyang/workspace/mycollab-master/mycollab-server-runner/target/classes started by wangyang in /home/wangyang/workspace/mycollab-master/mycollab-app-community)
+00:58:15,173  INFO c.m.s.DefaultServerRunner:679 - The following profiles are active: setup
+00:58:17,105  INFO o.s.c.a.ConfigurationClassPostProcessor:380 - Cannot enhance @Configuration bean definition 'com.vaadin.spring.VaadinConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+00:58:18,073  WARN i.u.w.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+00:58:18,111  INFO i.u.servlet:364 - Initializing Spring embedded WebApplicationContext
+00:58:18,111  INFO o.s.w.c.ContextLoader:296 - Root WebApplicationContext: initialization completed in 2805 ms
+00:58:18,148  INFO c.v.s.b.i.VaadinServletConfiguration:261 - Registering Vaadin servlet
+00:58:18,149  INFO c.v.s.b.i.VaadinServletConfiguration:263 - Servlet will be mapped to URLs [/vaadinServlet/*, /VAADIN/*]
+00:58:18,178  INFO c.v.s.b.i.VaadinServletConfiguration:282 - Setting servlet init parameters
+00:58:18,178  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [productionMode] = [false]
+00:58:18,179  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [resourceCacheTime] = [3600]
+00:58:18,179  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [heartbeatInterval] = [300]
+00:58:18,179  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [closeIdleSessions] = [false]
+00:58:18,863  INFO o.s.s.c.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+00:58:19,027  INFO c.v.s.b.i.VaadinServletConfiguration:121 - Checking the application context for Vaadin UI mappings
+00:58:19,031  INFO c.v.s.b.i.VaadinServletConfiguration:110 - Forwarding @SpringUI URLs from {}
+00:58:19,033  INFO c.v.s.b.i.VaadinServletConfiguration:206 - Registering Vaadin servlet of type [com.vaadin.spring.server.SpringVaadinServlet]
+00:58:19,235  INFO o.q.i.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+00:58:19,254  INFO o.q.c.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+00:58:19,255  INFO o.q.c.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+00:58:19,256  INFO o.q.s.RAMJobStore:155 - RAMJobStore initialized.
+00:58:19,257  INFO o.q.c.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+00:58:19,258  INFO o.q.i.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+00:58:19,258  INFO o.q.i.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+00:58:19,258  INFO o.q.c.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6e0e5dec
+00:58:19,421  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+00:58:19,422  INFO o.a.c.AtmosphereFramework:588 - Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+00:58:19,476  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+00:58:19,494  INFO o.a.u.ForkJoinPool:588 - Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+00:58:19,503  INFO o.a.c.AtmosphereFramework:588 - Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+00:58:19,512  WARN o.a.u.IOUtils:588 - More than one Servlet Mapping defined. WebSocket may not work io.undertow.servlet.spec.ServletRegistrationImpl@342e690b
+00:58:19,512  INFO o.a.c.JSR356AsyncSupport:588 - JSR 356 Mapping path /vaadinServlet
+00:58:19,515  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet
+00:58:19,519  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/
+00:58:19,519  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}
+00:58:19,520  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}
+00:58:19,521  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}
+00:58:19,521  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}/{path3}
+00:58:19,522  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}/{path3}/{path4}
+00:58:19,522  INFO o.a.c.AtmosphereFramework:588 - Installing Default AtmosphereInterceptors
+00:58:19,524  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+00:58:19,524  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+00:58:19,525  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+00:58:19,527  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+00:58:19,528  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+00:58:19,529  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+00:58:19,529  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+00:58:19,532  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+00:58:19,533  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+00:58:19,533  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+00:58:19,534  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+00:58:19,534  INFO o.a.c.AtmosphereFramework:588 - Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+00:58:19,535  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+00:58:19,542  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+00:58:19,543  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+00:58:19,544  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+00:58:19,544  INFO o.a.i.HeartbeatInterceptor:588 - HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+00:58:19,544  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+00:58:19,545  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+00:58:19,545  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+00:58:19,545  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+00:58:19,546  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+00:58:19,550  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+00:58:19,550  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+00:58:19,551  INFO o.a.c.AtmosphereFramework:588 - Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+00:58:19,551  INFO o.a.c.AtmosphereFramework:588 - Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+00:58:19,551  INFO o.a.c.AtmosphereFramework:588 - Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+00:58:19,552  INFO o.a.c.AtmosphereFramework:588 - Broadcaster Shared List Resources: false
+00:58:19,552  INFO o.a.c.AtmosphereFramework:588 - Broadcaster Polling Wait Time 100
+00:58:19,552  INFO o.a.c.AtmosphereFramework:588 - Shared ExecutorService supported: true
+00:58:19,552  INFO o.a.c.AtmosphereFramework:588 - Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+00:58:19,553  INFO o.a.c.AtmosphereFramework:588 - Async I/O Thread Pool Size: 200
+00:58:19,553  INFO o.a.c.AtmosphereFramework:588 - Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+00:58:19,553  INFO o.a.c.AtmosphereFramework:588 - Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+00:58:19,553  INFO o.a.c.AtmosphereFramework:588 - Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+00:58:19,559  INFO o.a.c.AtmosphereFramework:588 - Invoke AtmosphereInterceptor on WebSocket message true
+00:58:19,559  INFO o.a.c.AtmosphereFramework:588 - HttpSession supported: true
+00:58:19,560  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using DefaultAtmosphereObjectFactory for dependency injection and object creation
+00:58:19,561  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Undertow - 2.0.17.Final using javax.servlet/3.0 and jsr356/WebSocket API
+00:58:19,561  INFO o.a.c.AtmosphereFramework:588 - Atmosphere Framework 2.4.30.vaadin1 started.
+00:58:19,567  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+00:58:19,577  INFO o.s.s.q.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+00:58:19,578  INFO o.q.c.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+00:58:19,619  INFO o.xnio:104 - XNIO version 3.3.8.Final
+00:58:19,636  INFO o.x.nio:55 - XNIO NIO Implementation Version 3.3.8.Final
+00:58:19,747  INFO o.s.b.w.e.u.UndertowServletWebServer:148 - Undertow started on port(s) 8080 (http) with context path ''
+00:58:19,752  INFO c.m.s.DefaultServerRunner:59 - Started DefaultServerRunner in 5.793 seconds (JVM running for 9.941)
+00:59:17,177  INFO o.q.c.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+00:59:17,179  INFO o.s.s.q.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+00:59:17,179  INFO o.q.c.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+00:59:17,179  INFO o.q.c.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+00:59:17,180  INFO o.q.c.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+00:59:17,181  INFO o.s.s.c.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+00:59:24,362  INFO c.m.s.DefaultServerRunner:50 - Starting DefaultServerRunner on wangyang-PC with PID 16751 (/home/wangyang/workspace/mycollab-master/mycollab-server-runner/target/classes started by wangyang in /home/wangyang/workspace/mycollab-master/mycollab-app-community)
+00:59:24,365  INFO c.m.s.DefaultServerRunner:679 - The following profiles are active: setup
+00:59:25,497  INFO c.m.s.DefaultServerRunner:59 - Started DefaultServerRunner in 1.907 seconds (JVM running for 5.933)
+01:01:02,069  INFO c.m.s.DefaultServerRunner:50 - Starting DefaultServerRunner on wangyang-PC with PID 16981 (/home/wangyang/workspace/mycollab-master/mycollab-server-runner/target/classes started by wangyang in /home/wangyang/workspace/mycollab-master/mycollab-app-community)
+01:01:02,075  INFO c.m.s.DefaultServerRunner:679 - The following profiles are active: setup
+01:01:03,974  INFO o.s.c.a.ConfigurationClassPostProcessor:380 - Cannot enhance @Configuration bean definition 'com.vaadin.spring.VaadinConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+01:01:04,908  WARN i.u.w.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+01:01:04,945  INFO i.u.servlet:364 - Initializing Spring embedded WebApplicationContext
+01:01:04,945  INFO o.s.w.c.ContextLoader:296 - Root WebApplicationContext: initialization completed in 2692 ms
+01:01:04,981  INFO c.v.s.b.i.VaadinServletConfiguration:261 - Registering Vaadin servlet
+01:01:04,982  INFO c.v.s.b.i.VaadinServletConfiguration:263 - Servlet will be mapped to URLs [/vaadinServlet/*, /VAADIN/*]
+01:01:05,006  INFO c.v.s.b.i.VaadinServletConfiguration:282 - Setting servlet init parameters
+01:01:05,006  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [productionMode] = [false]
+01:01:05,007  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [resourceCacheTime] = [3600]
+01:01:05,007  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [heartbeatInterval] = [300]
+01:01:05,007  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [closeIdleSessions] = [false]
+01:01:05,539  INFO o.s.s.c.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+01:01:05,720  INFO c.v.s.b.i.VaadinServletConfiguration:121 - Checking the application context for Vaadin UI mappings
+01:01:05,723  INFO c.v.s.b.i.VaadinServletConfiguration:110 - Forwarding @SpringUI URLs from {}
+01:01:05,725  INFO c.v.s.b.i.VaadinServletConfiguration:206 - Registering Vaadin servlet of type [com.vaadin.spring.server.SpringVaadinServlet]
+01:01:05,988  INFO o.q.i.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+01:01:06,015  INFO o.q.c.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+01:01:06,016  INFO o.q.c.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+01:01:06,017  INFO o.q.s.RAMJobStore:155 - RAMJobStore initialized.
+01:01:06,019  INFO o.q.c.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+01:01:06,019  INFO o.q.i.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+01:01:06,019  INFO o.q.i.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+01:01:06,019  INFO o.q.c.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1d858300
+01:01:06,200  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+01:01:06,200  INFO o.a.c.AtmosphereFramework:588 - Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+01:01:06,253  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+01:01:06,273  INFO o.a.u.ForkJoinPool:588 - Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+01:01:06,284  INFO o.a.c.AtmosphereFramework:588 - Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+01:01:06,293  WARN o.a.u.IOUtils:588 - More than one Servlet Mapping defined. WebSocket may not work io.undertow.servlet.spec.ServletRegistrationImpl@1b90fee4
+01:01:06,294  INFO o.a.c.JSR356AsyncSupport:588 - JSR 356 Mapping path /vaadinServlet
+01:01:06,299  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet
+01:01:06,303  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/
+01:01:06,304  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}
+01:01:06,305  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}
+01:01:06,306  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}
+01:01:06,307  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}/{path3}
+01:01:06,307  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}/{path3}/{path4}
+01:01:06,308  INFO o.a.c.AtmosphereFramework:588 - Installing Default AtmosphereInterceptors
+01:01:06,310  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+01:01:06,311  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+01:01:06,313  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+01:01:06,314  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+01:01:06,315  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+01:01:06,316  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+01:01:06,317  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+01:01:06,320  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+01:01:06,321  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+01:01:06,322  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+01:01:06,324  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+01:01:06,325  INFO o.a.c.AtmosphereFramework:588 - Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+01:01:06,326  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+01:01:06,339  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+01:01:06,340  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+01:01:06,341  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+01:01:06,341  INFO o.a.i.HeartbeatInterceptor:588 - HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+01:01:06,342  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+01:01:06,342  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+01:01:06,342  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+01:01:06,343  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+01:01:06,343  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+01:01:06,344  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+01:01:06,344  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+01:01:06,345  INFO o.a.c.AtmosphereFramework:588 - Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+01:01:06,345  INFO o.a.c.AtmosphereFramework:588 - Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+01:01:06,345  INFO o.a.c.AtmosphereFramework:588 - Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+01:01:06,345  INFO o.a.c.AtmosphereFramework:588 - Broadcaster Shared List Resources: false
+01:01:06,346  INFO o.a.c.AtmosphereFramework:588 - Broadcaster Polling Wait Time 100
+01:01:06,346  INFO o.a.c.AtmosphereFramework:588 - Shared ExecutorService supported: true
+01:01:06,346  INFO o.a.c.AtmosphereFramework:588 - Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+01:01:06,347  INFO o.a.c.AtmosphereFramework:588 - Async I/O Thread Pool Size: 200
+01:01:06,347  INFO o.a.c.AtmosphereFramework:588 - Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+01:01:06,347  INFO o.a.c.AtmosphereFramework:588 - Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+01:01:06,347  INFO o.a.c.AtmosphereFramework:588 - Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+01:01:06,353  INFO o.a.c.AtmosphereFramework:588 - Invoke AtmosphereInterceptor on WebSocket message true
+01:01:06,353  INFO o.a.c.AtmosphereFramework:588 - HttpSession supported: true
+01:01:06,354  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using DefaultAtmosphereObjectFactory for dependency injection and object creation
+01:01:06,355  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Undertow - 2.0.17.Final using javax.servlet/3.0 and jsr356/WebSocket API
+01:01:06,356  INFO o.a.c.AtmosphereFramework:588 - Atmosphere Framework 2.4.30.vaadin1 started.
+01:01:06,362  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+01:01:06,375  INFO o.s.s.q.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+01:01:06,376  INFO o.q.c.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+01:01:06,416  INFO o.xnio:104 - XNIO version 3.3.8.Final
+01:01:06,431  INFO o.x.nio:55 - XNIO NIO Implementation Version 3.3.8.Final
+01:01:06,537  INFO o.s.b.w.e.u.UndertowServletWebServer:148 - Undertow started on port(s) 8080 (http) with context path ''
+01:01:06,542  INFO c.m.s.DefaultServerRunner:59 - Started DefaultServerRunner in 6.104 seconds (JVM running for 9.606)
+01:05:28,217  INFO o.q.c.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+01:05:28,219  INFO o.s.s.q.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+01:05:28,219  INFO o.q.c.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+01:05:28,220  INFO o.q.c.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+01:05:28,222  INFO o.q.c.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+01:05:28,223  INFO o.s.s.c.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+01:05:49,554  INFO c.m.s.DefaultServerRunner:50 - Starting DefaultServerRunner on wangyang-PC with PID 17496 (/home/wangyang/workspace/mycollab-master/mycollab-server-runner/target/classes started by wangyang in /home/wangyang/workspace/mycollab-master/mycollab-app-community)
+01:05:49,571  INFO c.m.s.DefaultServerRunner:679 - The following profiles are active: setup
+01:05:51,745  INFO o.s.c.a.ConfigurationClassPostProcessor:380 - Cannot enhance @Configuration bean definition 'com.vaadin.spring.VaadinConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+01:05:52,652  WARN i.u.w.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+01:05:52,692  INFO i.u.servlet:364 - Initializing Spring embedded WebApplicationContext
+01:05:52,692  INFO o.s.w.c.ContextLoader:296 - Root WebApplicationContext: initialization completed in 2897 ms
+01:05:52,727  INFO c.v.s.b.i.VaadinServletConfiguration:261 - Registering Vaadin servlet
+01:05:52,728  INFO c.v.s.b.i.VaadinServletConfiguration:263 - Servlet will be mapped to URLs [/vaadinServlet/*, /VAADIN/*]
+01:05:52,841  INFO c.v.s.b.i.VaadinServletConfiguration:282 - Setting servlet init parameters
+01:05:52,842  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [productionMode] = [false]
+01:05:52,842  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [resourceCacheTime] = [3600]
+01:05:52,842  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [heartbeatInterval] = [300]
+01:05:52,842  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [closeIdleSessions] = [false]
+01:05:53,233  INFO o.s.s.c.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+01:05:53,432  INFO c.v.s.b.i.VaadinServletConfiguration:121 - Checking the application context for Vaadin UI mappings
+01:05:53,435  INFO c.v.s.b.i.VaadinServletConfiguration:110 - Forwarding @SpringUI URLs from {}
+01:05:53,437  INFO c.v.s.b.i.VaadinServletConfiguration:206 - Registering Vaadin servlet of type [com.vaadin.spring.server.SpringVaadinServlet]
+01:05:53,622  INFO o.q.i.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+01:05:53,656  INFO o.q.c.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+01:05:53,657  INFO o.q.c.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+01:05:53,658  INFO o.q.s.RAMJobStore:155 - RAMJobStore initialized.
+01:05:53,660  INFO o.q.c.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+01:05:53,660  INFO o.q.i.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+01:05:53,661  INFO o.q.i.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+01:05:53,661  INFO o.q.c.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@67e25252
+01:05:53,837  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+01:05:53,837  INFO o.a.c.AtmosphereFramework:588 - Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+01:05:53,893  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+01:05:53,920  INFO o.a.u.ForkJoinPool:588 - Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+01:05:53,929  INFO o.a.c.AtmosphereFramework:588 - Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+01:05:53,939  WARN o.a.u.IOUtils:588 - More than one Servlet Mapping defined. WebSocket may not work io.undertow.servlet.spec.ServletRegistrationImpl@7a3269f5
+01:05:53,940  INFO o.a.c.JSR356AsyncSupport:588 - JSR 356 Mapping path /vaadinServlet
+01:05:53,944  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet
+01:05:53,949  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/
+01:05:53,950  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}
+01:05:53,951  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}
+01:05:53,952  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}
+01:05:53,952  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}/{path3}
+01:05:53,952  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}/{path3}/{path4}
+01:05:53,953  INFO o.a.c.AtmosphereFramework:588 - Installing Default AtmosphereInterceptors
+01:05:53,954  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+01:05:53,955  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+01:05:53,956  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+01:05:53,958  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+01:05:53,959  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+01:05:53,960  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+01:05:53,961  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+01:05:53,964  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+01:05:53,964  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+01:05:53,965  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+01:05:53,966  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+01:05:53,966  INFO o.a.c.AtmosphereFramework:588 - Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+01:05:53,968  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+01:05:53,975  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+01:05:53,976  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+01:05:53,976  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+01:05:53,977  INFO o.a.i.HeartbeatInterceptor:588 - HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+01:05:53,977  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+01:05:53,977  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+01:05:53,978  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+01:05:53,978  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+01:05:53,978  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+01:05:53,979  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+01:05:53,979  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+01:05:53,981  INFO o.a.c.AtmosphereFramework:588 - Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+01:05:53,981  INFO o.a.c.AtmosphereFramework:588 - Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+01:05:53,981  INFO o.a.c.AtmosphereFramework:588 - Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+01:05:53,982  INFO o.a.c.AtmosphereFramework:588 - Broadcaster Shared List Resources: false
+01:05:53,982  INFO o.a.c.AtmosphereFramework:588 - Broadcaster Polling Wait Time 100
+01:05:53,982  INFO o.a.c.AtmosphereFramework:588 - Shared ExecutorService supported: true
+01:05:53,982  INFO o.a.c.AtmosphereFramework:588 - Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+01:05:53,983  INFO o.a.c.AtmosphereFramework:588 - Async I/O Thread Pool Size: 200
+01:05:53,983  INFO o.a.c.AtmosphereFramework:588 - Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+01:05:53,983  INFO o.a.c.AtmosphereFramework:588 - Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+01:05:53,983  INFO o.a.c.AtmosphereFramework:588 - Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+01:05:53,989  INFO o.a.c.AtmosphereFramework:588 - Invoke AtmosphereInterceptor on WebSocket message true
+01:05:53,990  INFO o.a.c.AtmosphereFramework:588 - HttpSession supported: true
+01:05:53,990  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using DefaultAtmosphereObjectFactory for dependency injection and object creation
+01:05:53,992  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Undertow - 2.0.17.Final using javax.servlet/3.0 and jsr356/WebSocket API
+01:05:53,992  INFO o.a.c.AtmosphereFramework:588 - Atmosphere Framework 2.4.30.vaadin1 started.
+01:05:53,998  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+01:05:54,011  INFO o.s.s.q.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+01:05:54,011  INFO o.q.c.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+01:05:54,053  INFO o.xnio:104 - XNIO version 3.3.8.Final
+01:05:54,070  INFO o.x.nio:55 - XNIO NIO Implementation Version 3.3.8.Final
+01:05:54,185  INFO o.s.b.w.e.u.UndertowServletWebServer:148 - Undertow started on port(s) 8080 (http) with context path ''
+01:05:54,190  INFO c.m.s.DefaultServerRunner:59 - Started DefaultServerRunner in 6.558 seconds (JVM running for 7.712)
+01:06:20,276  INFO o.q.c.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+01:06:20,277  INFO o.s.s.q.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+01:06:20,277  INFO o.q.c.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+01:06:20,277  INFO o.q.c.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+01:06:20,279  INFO o.q.c.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+01:06:20,281  INFO o.s.s.c.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+01:06:44,409  INFO c.m.s.DefaultServerRunner:50 - Starting DefaultServerRunner on wangyang-PC with PID 17628 (/home/wangyang/workspace/mycollab-master/mycollab-server-runner/target/classes started by wangyang in /home/wangyang/workspace/mycollab-master/mycollab-app-community)
+01:06:44,430  INFO c.m.s.DefaultServerRunner:679 - The following profiles are active: setup
+01:06:47,766  INFO o.s.c.a.ConfigurationClassPostProcessor:380 - Cannot enhance @Configuration bean definition 'com.vaadin.spring.VaadinConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+01:06:48,554  WARN i.u.w.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+01:06:48,593  INFO i.u.servlet:364 - Initializing Spring embedded WebApplicationContext
+01:06:48,593  INFO o.s.w.c.ContextLoader:296 - Root WebApplicationContext: initialization completed in 3769 ms
+01:06:48,632  INFO c.v.s.b.i.VaadinServletConfiguration:261 - Registering Vaadin servlet
+01:06:48,633  INFO c.v.s.b.i.VaadinServletConfiguration:263 - Servlet will be mapped to URLs [/vaadinServlet/*, /VAADIN/*]
+01:06:48,753  INFO c.v.s.b.i.VaadinServletConfiguration:282 - Setting servlet init parameters
+01:06:48,756  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [productionMode] = [false]
+01:06:48,757  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [resourceCacheTime] = [3600]
+01:06:48,757  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [heartbeatInterval] = [300]
+01:06:48,758  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [closeIdleSessions] = [false]
+01:06:49,151  INFO o.s.s.c.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+01:06:49,337  INFO c.v.s.b.i.VaadinServletConfiguration:121 - Checking the application context for Vaadin UI mappings
+01:06:49,340  INFO c.v.s.b.i.VaadinServletConfiguration:110 - Forwarding @SpringUI URLs from {}
+01:06:49,342  INFO c.v.s.b.i.VaadinServletConfiguration:206 - Registering Vaadin servlet of type [com.vaadin.spring.server.SpringVaadinServlet]
+01:06:49,528  INFO o.q.i.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+01:06:49,563  INFO o.q.c.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+01:06:49,563  INFO o.q.c.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+01:06:49,565  INFO o.q.s.RAMJobStore:155 - RAMJobStore initialized.
+01:06:49,566  INFO o.q.c.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+01:06:49,567  INFO o.q.i.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+01:06:49,567  INFO o.q.i.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+01:06:49,567  INFO o.q.c.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@41184371
+01:06:49,719  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+01:06:49,719  INFO o.a.c.AtmosphereFramework:588 - Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+01:06:49,773  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+01:06:49,796  INFO o.a.u.ForkJoinPool:588 - Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+01:06:49,809  INFO o.a.c.AtmosphereFramework:588 - Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+01:06:49,820  WARN o.a.u.IOUtils:588 - More than one Servlet Mapping defined. WebSocket may not work io.undertow.servlet.spec.ServletRegistrationImpl@1f939a0f
+01:06:49,821  INFO o.a.c.JSR356AsyncSupport:588 - JSR 356 Mapping path /vaadinServlet
+01:06:49,826  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet
+01:06:49,832  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/
+01:06:49,833  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}
+01:06:49,834  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}
+01:06:49,835  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}
+01:06:49,835  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}/{path3}
+01:06:49,836  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}/{path3}/{path4}
+01:06:49,836  INFO o.a.c.AtmosphereFramework:588 - Installing Default AtmosphereInterceptors
+01:06:49,837  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+01:06:49,838  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+01:06:49,839  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+01:06:49,841  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+01:06:49,841  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+01:06:49,842  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+01:06:49,843  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+01:06:49,845  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+01:06:49,846  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+01:06:49,846  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+01:06:49,847  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+01:06:49,848  INFO o.a.c.AtmosphereFramework:588 - Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+01:06:49,849  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+01:06:49,856  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+01:06:49,857  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+01:06:49,858  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+01:06:49,858  INFO o.a.i.HeartbeatInterceptor:588 - HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+01:06:49,858  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+01:06:49,859  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+01:06:49,859  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+01:06:49,860  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+01:06:49,860  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+01:06:49,860  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+01:06:49,860  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+01:06:49,861  INFO o.a.c.AtmosphereFramework:588 - Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+01:06:49,862  INFO o.a.c.AtmosphereFramework:588 - Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+01:06:49,862  INFO o.a.c.AtmosphereFramework:588 - Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+01:06:49,862  INFO o.a.c.AtmosphereFramework:588 - Broadcaster Shared List Resources: false
+01:06:49,863  INFO o.a.c.AtmosphereFramework:588 - Broadcaster Polling Wait Time 100
+01:06:49,863  INFO o.a.c.AtmosphereFramework:588 - Shared ExecutorService supported: true
+01:06:49,863  INFO o.a.c.AtmosphereFramework:588 - Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+01:06:49,864  INFO o.a.c.AtmosphereFramework:588 - Async I/O Thread Pool Size: 200
+01:06:49,864  INFO o.a.c.AtmosphereFramework:588 - Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+01:06:49,864  INFO o.a.c.AtmosphereFramework:588 - Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+01:06:49,864  INFO o.a.c.AtmosphereFramework:588 - Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+01:06:49,870  INFO o.a.c.AtmosphereFramework:588 - Invoke AtmosphereInterceptor on WebSocket message true
+01:06:49,871  INFO o.a.c.AtmosphereFramework:588 - HttpSession supported: true
+01:06:49,871  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using DefaultAtmosphereObjectFactory for dependency injection and object creation
+01:06:49,872  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Undertow - 2.0.17.Final using javax.servlet/3.0 and jsr356/WebSocket API
+01:06:49,873  INFO o.a.c.AtmosphereFramework:588 - Atmosphere Framework 2.4.30.vaadin1 started.
+01:06:49,879  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+01:06:49,892  INFO o.s.s.q.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+01:06:49,892  INFO o.q.c.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+01:06:49,933  INFO o.xnio:104 - XNIO version 3.3.8.Final
+01:06:49,951  INFO o.x.nio:55 - XNIO NIO Implementation Version 3.3.8.Final
+01:06:50,092  INFO o.s.b.w.e.u.UndertowServletWebServer:148 - Undertow started on port(s) 8080 (http) with context path ''
+01:06:50,097  INFO c.m.s.DefaultServerRunner:59 - Started DefaultServerRunner in 9.181 seconds (JVM running for 10.417)
+01:07:01,423  INFO o.q.c.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+01:07:01,424  INFO o.s.s.q.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+01:07:01,426  INFO o.q.c.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+01:07:01,426  INFO o.q.c.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+01:07:01,428  INFO o.q.c.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+01:07:01,429  INFO o.s.s.c.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+01:07:17,284  INFO c.m.s.DefaultServerRunner:50 - Starting DefaultServerRunner on wangyang-PC with PID 17792 (/home/wangyang/workspace/mycollab-master/mycollab-server-runner/target/classes started by wangyang in /home/wangyang/workspace/mycollab-master/mycollab-app-community)
+01:07:17,300  INFO c.m.s.DefaultServerRunner:679 - The following profiles are active: setup
+01:07:19,405  INFO o.s.c.a.ConfigurationClassPostProcessor:380 - Cannot enhance @Configuration bean definition 'com.vaadin.spring.VaadinConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+01:07:20,213  WARN i.u.w.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+01:07:20,249  INFO i.u.servlet:364 - Initializing Spring embedded WebApplicationContext
+01:07:20,249  INFO o.s.w.c.ContextLoader:296 - Root WebApplicationContext: initialization completed in 2683 ms
+01:07:20,284  INFO c.v.s.b.i.VaadinServletConfiguration:261 - Registering Vaadin servlet
+01:07:20,285  INFO c.v.s.b.i.VaadinServletConfiguration:263 - Servlet will be mapped to URLs [/vaadinServlet/*, /VAADIN/*]
+01:07:20,394  INFO c.v.s.b.i.VaadinServletConfiguration:282 - Setting servlet init parameters
+01:07:20,395  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [productionMode] = [false]
+01:07:20,395  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [resourceCacheTime] = [3600]
+01:07:20,396  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [heartbeatInterval] = [300]
+01:07:20,396  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [closeIdleSessions] = [false]
+01:07:20,804  INFO o.s.s.c.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+01:07:20,987  INFO c.v.s.b.i.VaadinServletConfiguration:121 - Checking the application context for Vaadin UI mappings
+01:07:20,990  INFO c.v.s.b.i.VaadinServletConfiguration:110 - Forwarding @SpringUI URLs from {}
+01:07:20,992  INFO c.v.s.b.i.VaadinServletConfiguration:206 - Registering Vaadin servlet of type [com.vaadin.spring.server.SpringVaadinServlet]
+01:07:21,168  INFO o.q.i.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+01:07:21,195  INFO o.q.c.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+01:07:21,195  INFO o.q.c.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+01:07:21,197  INFO o.q.s.RAMJobStore:155 - RAMJobStore initialized.
+01:07:21,198  INFO o.q.c.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+01:07:21,198  INFO o.q.i.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+01:07:21,199  INFO o.q.i.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+01:07:21,199  INFO o.q.c.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2e766822
+01:07:21,354  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+01:07:21,355  INFO o.a.c.AtmosphereFramework:588 - Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+01:07:21,416  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+01:07:21,439  INFO o.a.u.ForkJoinPool:588 - Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+01:07:21,451  INFO o.a.c.AtmosphereFramework:588 - Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+01:07:21,463  WARN o.a.u.IOUtils:588 - More than one Servlet Mapping defined. WebSocket may not work io.undertow.servlet.spec.ServletRegistrationImpl@4c6b4ed7
+01:07:21,464  INFO o.a.c.JSR356AsyncSupport:588 - JSR 356 Mapping path /vaadinServlet
+01:07:21,468  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet
+01:07:21,472  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/
+01:07:21,472  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}
+01:07:21,473  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}
+01:07:21,474  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}
+01:07:21,474  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}/{path3}
+01:07:21,474  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}/{path3}/{path4}
+01:07:21,474  INFO o.a.c.AtmosphereFramework:588 - Installing Default AtmosphereInterceptors
+01:07:21,476  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+01:07:21,477  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+01:07:21,478  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+01:07:21,479  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+01:07:21,480  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+01:07:21,482  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+01:07:21,482  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+01:07:21,485  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+01:07:21,486  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+01:07:21,487  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+01:07:21,488  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+01:07:21,488  INFO o.a.c.AtmosphereFramework:588 - Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+01:07:21,489  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+01:07:21,496  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+01:07:21,498  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+01:07:21,498  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+01:07:21,499  INFO o.a.i.HeartbeatInterceptor:588 - HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+01:07:21,499  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+01:07:21,500  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+01:07:21,500  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+01:07:21,501  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+01:07:21,501  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+01:07:21,502  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+01:07:21,502  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+01:07:21,503  INFO o.a.c.AtmosphereFramework:588 - Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+01:07:21,503  INFO o.a.c.AtmosphereFramework:588 - Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+01:07:21,504  INFO o.a.c.AtmosphereFramework:588 - Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+01:07:21,504  INFO o.a.c.AtmosphereFramework:588 - Broadcaster Shared List Resources: false
+01:07:21,504  INFO o.a.c.AtmosphereFramework:588 - Broadcaster Polling Wait Time 100
+01:07:21,505  INFO o.a.c.AtmosphereFramework:588 - Shared ExecutorService supported: true
+01:07:21,505  INFO o.a.c.AtmosphereFramework:588 - Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+01:07:21,506  INFO o.a.c.AtmosphereFramework:588 - Async I/O Thread Pool Size: 200
+01:07:21,506  INFO o.a.c.AtmosphereFramework:588 - Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+01:07:21,506  INFO o.a.c.AtmosphereFramework:588 - Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+01:07:21,507  INFO o.a.c.AtmosphereFramework:588 - Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+01:07:21,513  INFO o.a.c.AtmosphereFramework:588 - Invoke AtmosphereInterceptor on WebSocket message true
+01:07:21,514  INFO o.a.c.AtmosphereFramework:588 - HttpSession supported: true
+01:07:21,514  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using DefaultAtmosphereObjectFactory for dependency injection and object creation
+01:07:21,516  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Undertow - 2.0.17.Final using javax.servlet/3.0 and jsr356/WebSocket API
+01:07:21,516  INFO o.a.c.AtmosphereFramework:588 - Atmosphere Framework 2.4.30.vaadin1 started.
+01:07:21,523  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+01:07:21,536  INFO o.s.s.q.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+01:07:21,537  INFO o.q.c.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+01:07:21,578  INFO o.xnio:104 - XNIO version 3.3.8.Final
+01:07:21,594  INFO o.x.nio:55 - XNIO NIO Implementation Version 3.3.8.Final
+01:07:21,699  INFO o.s.b.w.e.u.UndertowServletWebServer:148 - Undertow started on port(s) 8080 (http) with context path ''
+01:07:21,706  INFO c.m.s.DefaultServerRunner:59 - Started DefaultServerRunner in 6.468 seconds (JVM running for 7.671)
+01:07:35,462  INFO o.q.c.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+01:07:35,466  INFO o.s.s.q.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+01:07:35,466  INFO o.q.c.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+01:07:35,467  INFO o.q.c.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+01:07:35,473  INFO o.q.c.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+01:07:35,475  INFO o.s.s.c.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+01:07:56,332  INFO c.m.s.DefaultServerRunner:50 - Starting DefaultServerRunner on wangyang-PC with PID 17977 (/home/wangyang/workspace/mycollab-master/mycollab-server-runner/target/classes started by wangyang in /home/wangyang/workspace/mycollab-master/mycollab-app-community)
+01:07:56,342  INFO c.m.s.DefaultServerRunner:679 - The following profiles are active: setup
+01:07:58,504  WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+01:07:58,516  INFO o.s.b.a.l.ConditionEvaluationReportLoggingListener:142 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+01:07:58,525 ERROR o.s.b.SpringApplication:858 - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:157)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at com.mycollab.server.DefaultServerRunner.main(DefaultServerRunner.java:46)
+Caused by: org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:206)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:154)
+	... 6 common frames omitted
+09:57:05,901  INFO c.m.s.DefaultServerRunner:50 - Starting DefaultServerRunner on wangyang-PC with PID 63940 (/home/wangyang/workspace/mycollab-master/mycollab-server-runner/target/classes started by wangyang in /home/wangyang/workspace/mycollab-master/mycollab-app-community)
+09:57:05,909  INFO c.m.s.DefaultServerRunner:679 - The following profiles are active: setup
+09:57:07,859  INFO o.s.c.a.ConfigurationClassPostProcessor:380 - Cannot enhance @Configuration bean definition 'com.vaadin.spring.VaadinConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+09:57:08,695  WARN i.u.w.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+09:57:08,741  INFO i.u.servlet:364 - Initializing Spring embedded WebApplicationContext
+09:57:08,742  INFO o.s.w.c.ContextLoader:296 - Root WebApplicationContext: initialization completed in 2633 ms
+09:57:08,776  INFO c.v.s.b.i.VaadinServletConfiguration:261 - Registering Vaadin servlet
+09:57:08,777  INFO c.v.s.b.i.VaadinServletConfiguration:263 - Servlet will be mapped to URLs [/vaadinServlet/*, /VAADIN/*]
+09:57:08,878  INFO c.v.s.b.i.VaadinServletConfiguration:282 - Setting servlet init parameters
+09:57:08,879  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [productionMode] = [false]
+09:57:08,879  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [resourceCacheTime] = [3600]
+09:57:08,880  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [heartbeatInterval] = [300]
+09:57:08,880  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [closeIdleSessions] = [false]
+09:57:09,302  INFO o.s.s.c.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+09:57:09,491  INFO c.v.s.b.i.VaadinServletConfiguration:121 - Checking the application context for Vaadin UI mappings
+09:57:09,494  INFO c.v.s.b.i.VaadinServletConfiguration:110 - Forwarding @SpringUI URLs from {}
+09:57:09,497  INFO c.v.s.b.i.VaadinServletConfiguration:206 - Registering Vaadin servlet of type [com.vaadin.spring.server.SpringVaadinServlet]
+09:57:09,687  INFO o.q.i.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+09:57:09,721  INFO o.q.c.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+09:57:09,721  INFO o.q.c.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+09:57:09,723  INFO o.q.s.RAMJobStore:155 - RAMJobStore initialized.
+09:57:09,725  INFO o.q.c.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+09:57:09,725  INFO o.q.i.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+09:57:09,725  INFO o.q.i.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+09:57:09,725  INFO o.q.c.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@493ac8d3
+09:57:09,905  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+09:57:09,905  INFO o.a.c.AtmosphereFramework:588 - Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+09:57:09,961  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+09:57:09,981  INFO o.a.u.ForkJoinPool:588 - Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+09:57:09,991  INFO o.a.c.AtmosphereFramework:588 - Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+09:57:10,002  WARN o.a.u.IOUtils:588 - More than one Servlet Mapping defined. WebSocket may not work io.undertow.servlet.spec.ServletRegistrationImpl@58658f63
+09:57:10,003  INFO o.a.c.JSR356AsyncSupport:588 - JSR 356 Mapping path /vaadinServlet
+09:57:10,006  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet
+09:57:10,011  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/
+09:57:10,011  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}
+09:57:10,012  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}
+09:57:10,013  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}
+09:57:10,013  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}/{path3}
+09:57:10,013  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}/{path3}/{path4}
+09:57:10,014  INFO o.a.c.AtmosphereFramework:588 - Installing Default AtmosphereInterceptors
+09:57:10,015  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+09:57:10,016  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+09:57:10,017  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+09:57:10,018  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+09:57:10,019  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+09:57:10,020  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+09:57:10,021  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+09:57:10,023  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+09:57:10,024  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+09:57:10,024  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+09:57:10,025  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+09:57:10,025  INFO o.a.c.AtmosphereFramework:588 - Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+09:57:10,026  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+09:57:10,033  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+09:57:10,034  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+09:57:10,034  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+09:57:10,035  INFO o.a.i.HeartbeatInterceptor:588 - HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+09:57:10,035  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+09:57:10,035  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+09:57:10,036  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+09:57:10,036  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+09:57:10,036  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+09:57:10,037  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+09:57:10,037  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+09:57:10,037  INFO o.a.c.AtmosphereFramework:588 - Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+09:57:10,038  INFO o.a.c.AtmosphereFramework:588 - Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+09:57:10,038  INFO o.a.c.AtmosphereFramework:588 - Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+09:57:10,038  INFO o.a.c.AtmosphereFramework:588 - Broadcaster Shared List Resources: false
+09:57:10,038  INFO o.a.c.AtmosphereFramework:588 - Broadcaster Polling Wait Time 100
+09:57:10,039  INFO o.a.c.AtmosphereFramework:588 - Shared ExecutorService supported: true
+09:57:10,039  INFO o.a.c.AtmosphereFramework:588 - Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+09:57:10,039  INFO o.a.c.AtmosphereFramework:588 - Async I/O Thread Pool Size: 200
+09:57:10,039  INFO o.a.c.AtmosphereFramework:588 - Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+09:57:10,040  INFO o.a.c.AtmosphereFramework:588 - Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+09:57:10,040  INFO o.a.c.AtmosphereFramework:588 - Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+09:57:10,045  INFO o.a.c.AtmosphereFramework:588 - Invoke AtmosphereInterceptor on WebSocket message true
+09:57:10,046  INFO o.a.c.AtmosphereFramework:588 - HttpSession supported: true
+09:57:10,046  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using DefaultAtmosphereObjectFactory for dependency injection and object creation
+09:57:10,048  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Undertow - 2.0.17.Final using javax.servlet/3.0 and jsr356/WebSocket API
+09:57:10,048  INFO o.a.c.AtmosphereFramework:588 - Atmosphere Framework 2.4.30.vaadin1 started.
+09:57:10,055  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+09:57:10,068  INFO o.s.s.q.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+09:57:10,069  INFO o.q.c.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+09:57:10,124  INFO o.xnio:104 - XNIO version 3.3.8.Final
+09:57:10,167  INFO o.x.nio:55 - XNIO NIO Implementation Version 3.3.8.Final
+09:57:10,334  INFO o.s.b.w.e.u.UndertowServletWebServer:148 - Undertow started on port(s) 8080 (http) with context path ''
+09:57:10,340  INFO c.m.s.DefaultServerRunner:59 - Started DefaultServerRunner in 6.703 seconds (JVM running for 8.127)
+09:58:01,806  INFO c.m.i.s.InstallationServlet:43 - Try to install MyCollab
+09:58:01,816  WARN c.m.i.s.InstallationServlet:90 - Cannot authenticate mail server successfully. Make sure your inputs are correct.
+10:03:42,326  INFO c.m.i.s.InstallationServlet:43 - Try to install MyCollab
+10:04:38,194  WARN c.m.i.s.InstallationServlet:90 - Cannot authenticate mail server successfully. Make sure your inputs are correct.
+10:06:30,282  INFO o.q.c.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+10:06:30,285  INFO o.s.s.q.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+10:06:30,285  INFO o.q.c.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+10:06:30,285  INFO o.q.c.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+10:06:30,287  INFO o.q.c.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+10:06:30,288  INFO o.s.s.c.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+10:06:50,747  INFO c.m.s.DefaultServerRunner:50 - Starting DefaultServerRunner on wangyang-PC with PID 64807 (/home/wangyang/workspace/mycollab-master/mycollab-server-runner/target/classes started by wangyang in /home/wangyang/workspace/mycollab-master/mycollab-app-community)
+10:06:50,755  INFO c.m.s.DefaultServerRunner:675 - No active profile set, falling back to default profiles: default
+10:06:54,223  INFO o.s.c.a.ConfigurationClassPostProcessor:380 - Cannot enhance @Configuration bean definition 'com.vaadin.spring.VaadinConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+10:06:55,296  INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$45719f38] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:06:56,097  WARN i.u.w.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+10:06:56,144  INFO i.u.servlet:364 - Initializing Spring embedded WebApplicationContext
+10:06:56,144  INFO o.s.w.c.ContextLoader:296 - Root WebApplicationContext: initialization completed in 5274 ms
+10:06:56,262  INFO c.v.s.b.i.VaadinServletConfiguration:261 - Registering Vaadin servlet
+10:06:56,262  INFO c.v.s.b.i.VaadinServletConfiguration:263 - Servlet will be mapped to URLs [/vaadinServlet/*, /VAADIN/*]
+10:06:56,289  INFO c.v.s.b.i.VaadinServletConfiguration:282 - Setting servlet init parameters
+10:06:56,290  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [productionMode] = [false]
+10:06:56,290  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [resourceCacheTime] = [3600]
+10:06:56,290  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [heartbeatInterval] = [300]
+10:06:56,291  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [closeIdleSessions] = [false]
+10:06:56,538  WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceConfiguration': Unsatisfied dependency expressed through field 'dataSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+10:06:56,558  INFO o.s.b.a.l.ConditionEvaluationReportLoggingListener:142 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+10:06:56,564 ERROR o.s.b.d.LoggingFailureAnalysisReporter:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+10:07:29,414  INFO c.m.s.DefaultServerRunner:50 - Starting DefaultServerRunner on wangyang-PC with PID 64925 (/home/wangyang/workspace/mycollab-master/mycollab-server-runner/target/classes started by wangyang in /home/wangyang/workspace/mycollab-master/mycollab-app-community)
+10:07:29,423  INFO c.m.s.DefaultServerRunner:675 - No active profile set, falling back to default profiles: default
+10:07:33,349  INFO o.s.c.a.ConfigurationClassPostProcessor:380 - Cannot enhance @Configuration bean definition 'com.vaadin.spring.VaadinConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+10:07:34,448  INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$50f6b779] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:07:35,231  WARN i.u.w.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+10:07:35,278  INFO i.u.servlet:364 - Initializing Spring embedded WebApplicationContext
+10:07:35,279  INFO o.s.w.c.ContextLoader:296 - Root WebApplicationContext: initialization completed in 5710 ms
+10:07:35,384  INFO c.v.s.b.i.VaadinServletConfiguration:261 - Registering Vaadin servlet
+10:07:35,385  INFO c.v.s.b.i.VaadinServletConfiguration:263 - Servlet will be mapped to URLs [/vaadinServlet/*, /VAADIN/*]
+10:07:35,410  INFO c.v.s.b.i.VaadinServletConfiguration:282 - Setting servlet init parameters
+10:07:35,410  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [productionMode] = [false]
+10:07:35,411  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [resourceCacheTime] = [3600]
+10:07:35,411  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [heartbeatInterval] = [300]
+10:07:35,411  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [closeIdleSessions] = [false]
+10:07:35,625  WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceConfiguration': Unsatisfied dependency expressed through field 'dataSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+10:07:35,639  INFO o.s.b.a.l.ConditionEvaluationReportLoggingListener:142 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+10:07:35,642 ERROR o.s.b.d.LoggingFailureAnalysisReporter:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+10:08:00,471  INFO c.m.s.DefaultServerRunner:50 - Starting DefaultServerRunner on wangyang-PC with PID 65013 (/home/wangyang/workspace/mycollab-master/mycollab-server-runner/target/classes started by wangyang in /home/wangyang/workspace/mycollab-master/mycollab-app-community)
+10:08:00,478  INFO c.m.s.DefaultServerRunner:675 - No active profile set, falling back to default profiles: default
+10:08:03,886  INFO o.s.c.a.ConfigurationClassPostProcessor:380 - Cannot enhance @Configuration bean definition 'com.vaadin.spring.VaadinConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+10:08:05,118  INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$69636831] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:08:05,933  WARN i.u.w.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+10:08:05,980  INFO i.u.servlet:364 - Initializing Spring embedded WebApplicationContext
+10:08:05,980  INFO o.s.w.c.ContextLoader:296 - Root WebApplicationContext: initialization completed in 5405 ms
+10:08:06,086  INFO c.v.s.b.i.VaadinServletConfiguration:261 - Registering Vaadin servlet
+10:08:06,087  INFO c.v.s.b.i.VaadinServletConfiguration:263 - Servlet will be mapped to URLs [/vaadinServlet/*, /VAADIN/*]
+10:08:06,116  INFO c.v.s.b.i.VaadinServletConfiguration:282 - Setting servlet init parameters
+10:08:06,116  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [productionMode] = [false]
+10:08:06,117  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [resourceCacheTime] = [3600]
+10:08:06,117  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [heartbeatInterval] = [300]
+10:08:06,117  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [closeIdleSessions] = [false]
+10:08:06,313  WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceConfiguration': Unsatisfied dependency expressed through field 'dataSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+10:08:06,328  INFO o.s.b.a.l.ConditionEvaluationReportLoggingListener:142 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+10:08:06,331 ERROR o.s.b.d.LoggingFailureAnalysisReporter:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+10:08:37,309  INFO c.m.s.DefaultServerRunner:50 - Starting DefaultServerRunner on wangyang-PC with PID 65106 (/home/wangyang/workspace/mycollab-master/mycollab-server-runner/target/classes started by wangyang in /home/wangyang/workspace/mycollab-master/mycollab-app-community)
+10:08:37,319  INFO c.m.s.DefaultServerRunner:675 - No active profile set, falling back to default profiles: default
+10:08:41,049  INFO o.s.c.a.ConfigurationClassPostProcessor:380 - Cannot enhance @Configuration bean definition 'com.vaadin.spring.VaadinConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+10:08:42,032  INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$595e6994] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:08:42,727  WARN i.u.w.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+10:08:42,766  INFO i.u.servlet:364 - Initializing Spring embedded WebApplicationContext
+10:08:42,767  INFO o.s.w.c.ContextLoader:296 - Root WebApplicationContext: initialization completed in 5337 ms
+10:08:42,866  INFO c.v.s.b.i.VaadinServletConfiguration:261 - Registering Vaadin servlet
+10:08:42,867  INFO c.v.s.b.i.VaadinServletConfiguration:263 - Servlet will be mapped to URLs [/vaadinServlet/*, /VAADIN/*]
+10:08:42,887  INFO c.v.s.b.i.VaadinServletConfiguration:282 - Setting servlet init parameters
+10:08:42,888  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [productionMode] = [false]
+10:08:42,888  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [resourceCacheTime] = [3600]
+10:08:42,888  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [heartbeatInterval] = [300]
+10:08:42,889  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [closeIdleSessions] = [false]
+10:08:43,087  WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceConfiguration': Unsatisfied dependency expressed through field 'dataSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+10:08:43,100  INFO o.s.b.a.l.ConditionEvaluationReportLoggingListener:142 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+10:08:43,104 ERROR o.s.b.d.LoggingFailureAnalysisReporter:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+16:43:35,262  INFO c.m.s.DefaultServerRunner:50 - Starting DefaultServerRunner on wangyang-PC with PID 18238 (/home/wangyang/workspace/mycollab-master/mycollab-server-runner/target/classes started by wangyang in /home/wangyang/workspace/mycollab-master/mycollab-app-community)
+16:43:35,273  INFO c.m.s.DefaultServerRunner:679 - The following profiles are active: setup
+16:43:37,030  INFO o.s.c.a.ConfigurationClassPostProcessor:380 - Cannot enhance @Configuration bean definition 'com.vaadin.spring.VaadinConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+16:43:37,916  WARN i.u.w.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+16:43:37,953  INFO i.u.servlet:364 - Initializing Spring embedded WebApplicationContext
+16:43:37,954  INFO o.s.w.c.ContextLoader:296 - Root WebApplicationContext: initialization completed in 2552 ms
+16:43:38,135  INFO c.v.s.b.i.VaadinServletConfiguration:261 - Registering Vaadin servlet
+16:43:38,136  INFO c.v.s.b.i.VaadinServletConfiguration:263 - Servlet will be mapped to URLs [/vaadinServlet/*, /VAADIN/*]
+16:43:38,160  INFO c.v.s.b.i.VaadinServletConfiguration:282 - Setting servlet init parameters
+16:43:38,161  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [productionMode] = [false]
+16:43:38,161  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [resourceCacheTime] = [3600]
+16:43:38,161  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [heartbeatInterval] = [300]
+16:43:38,161  INFO c.v.s.b.i.VaadinServletConfiguration:306 - Set servlet init parameter [closeIdleSessions] = [false]
+16:43:38,557  INFO o.s.s.c.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+16:43:38,726  INFO c.v.s.b.i.VaadinServletConfiguration:121 - Checking the application context for Vaadin UI mappings
+16:43:38,729  INFO c.v.s.b.i.VaadinServletConfiguration:110 - Forwarding @SpringUI URLs from {}
+16:43:38,731  INFO c.v.s.b.i.VaadinServletConfiguration:206 - Registering Vaadin servlet of type [com.vaadin.spring.server.SpringVaadinServlet]
+16:43:38,922  INFO o.q.i.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+16:43:38,949  INFO o.q.c.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+16:43:38,950  INFO o.q.c.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+16:43:38,951  INFO o.q.s.RAMJobStore:155 - RAMJobStore initialized.
+16:43:38,952  INFO o.q.c.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+16:43:38,953  INFO o.q.i.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+16:43:38,953  INFO o.q.i.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+16:43:38,953  INFO o.q.c.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@428bdd72
+16:43:39,112  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+16:43:39,113  INFO o.a.c.AtmosphereFramework:588 - Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+16:43:39,167  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+16:43:39,186  INFO o.a.u.ForkJoinPool:588 - Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+16:43:39,196  INFO o.a.c.AtmosphereFramework:588 - Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+16:43:39,204  WARN o.a.u.IOUtils:588 - More than one Servlet Mapping defined. WebSocket may not work io.undertow.servlet.spec.ServletRegistrationImpl@161dd92a
+16:43:39,205  INFO o.a.c.JSR356AsyncSupport:588 - JSR 356 Mapping path /vaadinServlet
+16:43:39,209  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet
+16:43:39,214  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/
+16:43:39,215  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}
+16:43:39,216  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}
+16:43:39,217  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}
+16:43:39,217  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}/{path3}
+16:43:39,217  INFO i.u.w.jsr:747 - UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /vaadinServlet/{path0}/{path1}/{path2}/{path3}/{path4}
+16:43:39,218  INFO o.a.c.AtmosphereFramework:588 - Installing Default AtmosphereInterceptors
+16:43:39,220  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+16:43:39,221  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+16:43:39,223  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+16:43:39,224  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+16:43:39,225  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+16:43:39,227  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+16:43:39,227  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+16:43:39,230  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+16:43:39,231  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+16:43:39,231  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+16:43:39,232  INFO o.a.c.AtmosphereFramework:588 - 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+16:43:39,233  INFO o.a.c.AtmosphereFramework:588 - Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+16:43:39,234  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+16:43:39,242  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+16:43:39,243  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+16:43:39,243  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+16:43:39,244  INFO o.a.i.HeartbeatInterceptor:588 - HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+16:43:39,244  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+16:43:39,244  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+16:43:39,245  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+16:43:39,245  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+16:43:39,246  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+16:43:39,246  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+16:43:39,246  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+16:43:39,247  INFO o.a.c.AtmosphereFramework:588 - Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+16:43:39,247  INFO o.a.c.AtmosphereFramework:588 - Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+16:43:39,248  INFO o.a.c.AtmosphereFramework:588 - Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+16:43:39,248  INFO o.a.c.AtmosphereFramework:588 - Broadcaster Shared List Resources: false
+16:43:39,249  INFO o.a.c.AtmosphereFramework:588 - Broadcaster Polling Wait Time 100
+16:43:39,249  INFO o.a.c.AtmosphereFramework:588 - Shared ExecutorService supported: true
+16:43:39,249  INFO o.a.c.AtmosphereFramework:588 - Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+16:43:39,250  INFO o.a.c.AtmosphereFramework:588 - Async I/O Thread Pool Size: 200
+16:43:39,250  INFO o.a.c.AtmosphereFramework:588 - Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+16:43:39,250  INFO o.a.c.AtmosphereFramework:588 - Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+16:43:39,250  INFO o.a.c.AtmosphereFramework:588 - Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+16:43:39,255  INFO o.a.c.AtmosphereFramework:588 - Invoke AtmosphereInterceptor on WebSocket message true
+16:43:39,256  INFO o.a.c.AtmosphereFramework:588 - HttpSession supported: true
+16:43:39,256  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using DefaultAtmosphereObjectFactory for dependency injection and object creation
+16:43:39,257  INFO o.a.c.AtmosphereFramework:588 - Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Undertow - 2.0.17.Final using javax.servlet/3.0 and jsr356/WebSocket API
+16:43:39,258  INFO o.a.c.AtmosphereFramework:588 - Atmosphere Framework 2.4.30.vaadin1 started.
+16:43:39,263  INFO o.a.c.AtmosphereFramework:588 - Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+16:43:39,274  INFO o.s.s.q.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+16:43:39,275  INFO o.q.c.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+16:43:39,314  INFO o.xnio:104 - XNIO version 3.3.8.Final
+16:43:39,330  INFO o.x.nio:55 - XNIO NIO Implementation Version 3.3.8.Final
+16:43:39,446  INFO o.s.b.w.e.u.UndertowServletWebServer:148 - Undertow started on port(s) 8080 (http) with context path ''
+16:43:39,452  INFO c.m.s.DefaultServerRunner:59 - Started DefaultServerRunner in 5.314 seconds (JVM running for 34.099)
+16:45:56,015  INFO c.m.i.s.InstallationServlet:43 - Try to install MyCollab
+16:46:36,067  INFO o.q.c.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16:46:36,070  INFO o.s.s.q.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+16:46:36,070  INFO o.q.c.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+16:46:36,070  INFO o.q.c.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+16:46:36,072  INFO o.q.c.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+16:46:36,074  INFO o.s.s.c.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
